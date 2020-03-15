@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(247, 239, 2))
+  );
+
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(247, 239, 2))
+  );
+  margin: 0;
+  width: 369px;
+  height: 1000px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 375px;
+  height: 130px;
+  background-color: rgb(0, 255, 255);
+  margin: 10px;
+}
+.logo {
+  background-color: rgba(240, 255, 255, 0.6);
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+.htext {
+  position: relative;
+  left: 10px;
+  font-size: 1em;
+  color: azure;
+}
+.silshapes {
+  width: 369px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 6px;
+}
+.silshapes p {
+  visibility: visible;
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 0px 30px;
+}
+.silbuts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 120px;
+  height: 520px;
+}
+.silbuts a {
+  text-decoration: none;
+}
+.butanim a{
+  text-decoration: none;
+}
+#silpic {
+  box-shadow: 5px 5px 5px black;
+}
+.sil {
+  width: 268px;
+  height: 520px;
+  background-color: rgb(80, 2, 119);
+}
+
+span {
+  color: white;
+  position: relative;
+  left: 25px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 375px;
+  height: 130px;
+  background-color: rgb(0, 255, 255);
+  margin: 10px;
+}
+.buttonA {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+.buttonX {
+  width: 40px;
+  height: 20px;
+  position: relative;
+  left: 20px;
+  border-radius: 50px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  outline: none;
+}
+.buttonY {
+  width: 40px;
+  height: 20px;
+  position: relative;
+  left: 60px;
+  border-radius: 50px;
+  background-color: lightgreen;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  outline: none;
+}
+
+.buttonM {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+.buttonN {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 50px;
+  top: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+.buttonB {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+.buttonC {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 20px;
+
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+.buttonD {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+.buttonE {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+.buttonF {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: white;
+  outline: none;
+}

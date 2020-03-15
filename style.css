@@ -1,0 +1,530 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(247, 239, 2))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(247, 239, 2))
+  );
+  margin: 0;
+  width: 369px;
+  height: 1000px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 375px;
+  height: 120px;
+  background-color: rgb(0, 255, 255);
+  margin: 10px;
+}
+.logo {
+  background-color: rgba(240, 255, 255, 0.6);
+  margin: 7px;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+.htext {
+  position: relative;
+  left: 50px;
+  top: 55px;
+  font-size: 1.25em;
+  color: rgb(240, 255, 255);
+}
+.row1 {
+  width: 375px;
+  height: 210px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.silhouettes {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 5px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(247, 239, 2);
+  display: flex;
+  flex-direction: column;
+}
+.silhouettes a {
+  text-decoration: none;
+}
+.silhouettes p {
+  position: relative;
+  top: 5px;
+  left: 2px;
+  color: rgb(0, 0, 0);
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.button1 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 30px;
+  top: 6px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.armholes {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 16px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(247, 239, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.armholes a {
+  text-decoration: none;
+}
+.armholes p {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.button2 {
+  position: relative;
+  left: 30px;
+  top: 14px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.sleeves {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 28px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(247, 239, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sleeves a {
+  text-decoration: none;
+}
+.sleeves p {
+  position: relative;
+  top: 8px;
+  left: 17px;
+  color: rgb(0, 0, 0);
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.button3 {
+  position: relative;
+  left: 30px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.button4 {
+  position: relative;
+  left: 25px;
+  top: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.button5 {
+  position: relative;
+  left: 30px;
+  top: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.button6 {
+  position: relative;
+  left: 30px;
+  top: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.button7 {
+  position: relative;
+  left: 30px;
+  top: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.button8 {
+  position: relative;
+  left: 30px;
+  top: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.button9 {
+  position: relative;
+  left: 30px;
+  top: 11px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.icon1 {
+  width: 90px;
+  height: 100px;
+  position: relative;
+  left: 7px;
+  top: 18px;
+  box-shadow: 5px 5px 5px black;
+}
+.icon2 {
+  width: 90px;
+  height: 100px;
+  position: relative;
+  left: 7px;
+  top: 25px;
+  box-shadow: 5px 5px 5px black;
+}
+.icon3 {
+  width: 90px;
+  height: 100px;
+  position: relative;
+  left: 7px;
+  top: 25px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.row2 {
+  width: 375px;
+  height: 210px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.measurements {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 5px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(247, 239, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.measurements a {
+  text-decoration: none;
+}
+.measurements p {
+  position: relative;
+  top: 11px;
+  left: 25px;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.choices {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 16px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(247, 239, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.choices a {
+  text-decoration: none;
+}
+.choices p {
+  position: relative;
+  top: 12px;
+  left: 15px;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.sleeves2 {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 28px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(247, 239, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sleeves2 a {
+  text-decoration: none;
+}
+.sleeves2 p {
+  position: relative;
+  top: 12px;
+  left: 8px;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+.icon4 {
+  width: 90px;
+  height: 100px;
+  position: relative;
+  left: 7px;
+  top: 22px;
+  box-shadow: 5px 5px 5px black;
+}
+.icon5 {
+  width: 90px;
+  height: 100px;
+  position: relative;
+  left: 7px;
+  top: 22px;
+  box-shadow: 5px 5px 5px black;
+}
+.icon6 {
+  width: 90px;
+  height: 100px;
+  position: relative;
+  left: 7px;
+  top: 22px;
+  box-shadow: 5px 5px 5px black;
+}
+.icon7 {
+  width: 90px;
+  height: 100px;
+  position: relative;
+  left: 7px;
+  top: 22px;
+  box-shadow: 5px 5px 5px black;
+}
+.icon8 {
+  width: 90px;
+  height: 100px;
+  position: relative;
+  left: 7px;
+  top: 22px;
+  box-shadow: 5px 5px 5px black;
+}
+.icon9 {
+  width: 90px;
+  height: 100px;
+  position: relative;
+  left: 7px;
+  top: 22px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.row3 {
+  width: 375px;
+  height: 210px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.necklines {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 28px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(247, 239, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.necklines a {
+  text-decoration: none;
+}
+.necklines p {
+  position: relative;
+  top: 15px;
+  left: 13px;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.neckedges {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 16px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(247, 239, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.neckedges a {
+  text-decoration: none;
+}
+.neckedges p {
+  position: relative;
+  top: 15px;
+  left: 8px;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+.ne-ribbing {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 5px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(247, 239, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.ne-ribbing a {
+  text-decoration: none;
+}
+.ne-ribbing p {
+  position: relative;
+  top: 15px;
+  left: 1px;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
