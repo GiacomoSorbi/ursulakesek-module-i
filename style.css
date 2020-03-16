@@ -8,17 +8,17 @@ body {
     left top,
     left bottom,
     from(rgb(96, 24, 242)),
-    to(rgb(247, 239, 2))
+    to(rgb(2, 231, 247))
   );
   background: linear-gradient(
     left top,
     left bottom,
     from(rgb(96, 24, 242)),
-    to(rgb(247, 239, 2))
+    to(rgb(2, 231, 247))
   );
   margin: 0;
   width: 369px;
-  height: 1000px;
+  height: 920px;
 }
 
 header {
@@ -77,7 +77,7 @@ figcaption{
   top: 15px;
   left: 5px;
   border: 3px solid rgb(65, 126, 3);
-  background-color: rgb(247, 239, 2);
+  background-color: rgb(245, 77, 6);
   display: flex;
   flex-direction: column;
 }
@@ -165,7 +165,7 @@ figcaption{
   top: 15px;
   left: 28px;
   border: 3px solid rgb(65, 126, 3);
-  background-color: rgb(247, 239, 2);
+  background-color: rgb(245, 77, 6);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -388,7 +388,7 @@ figcaption{
   top: 15px;
   left: 16px;
   border: 3px solid rgb(65, 126, 3);
-  background-color: rgb(247, 239, 2);
+  background-color: rgb(245, 77, 6);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -493,7 +493,7 @@ figcaption{
   top: 15px;
   left: 28px;
   border: 3px solid rgb(65, 126, 3);
-  background-color: rgb(247, 239, 2);
+  background-color: rgb(245, 77, 6);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -542,7 +542,7 @@ figcaption{
   top: 15px;
   left: 5px;
   border: 3px solid rgb(65, 126, 3);
-  background-color: rgb(247, 239, 2);
+  background-color: rgb(245, 77, 6);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

@@ -3,22 +3,22 @@
 }
 
 body {
-  background: -webkit-gradient(
+  background:-webkit-gradient(
     linear,
     left top,
     left bottom,
     from(rgb(96, 24, 242)),
-    to(rgb(247, 239, 2))
+    to(rgb(2, 231, 247))
   );
   background: linear-gradient(
     left top,
     left bottom,
     from(rgb(96, 24, 242)),
-    to(rgb(247, 239, 2))
+    to(rgb(2, 231, 247))
   );
   margin: 0;
   width: 369px;
-  height: 1000px;
+  height: 920px;
 }
 
 header {

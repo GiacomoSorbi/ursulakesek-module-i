@@ -6,19 +6,18 @@ body {
     linear,
     left top,
     left bottom,
-    from(rgb(240, 6, 154)),
-    to(rgb(247, 239, 2))
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
   );
-
   background: linear-gradient(
     left top,
     left bottom,
-    from(rgb(240, 6, 154)),
-    to(rgb(247, 239, 2))
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
   );
   margin: 0;
   width: 369px;
-  height: 1000px;
+  height: 920px;
 }
 header {
   display: flex;
@@ -345,7 +344,9 @@ footer {
   font-weight: bold;
 }
 .mail {
-  height: 35px;
-  background-color: chartreuse;
+  height: 40px;
+  background-color:black;
   margin-left: 25px;
+  padding:0px 3px 0px 6px;
+  color:white;
 }
