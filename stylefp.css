@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgb(96, 24, 242)),
+      to(rgb(2, 231, 247))
+    );
+    background: linear-gradient(
+      left top,
+      left bottom,
+      from(rgb(96, 24, 242)),
+      to(rgb(2, 231, 247))
+    );
+    margin: 0;
+    width: 369px;
+    height: 1000px;
+  }
+  .logo {
+    margin: 25px 15px 25px 15px;
+    width: 350px;
+    height: 100px;
+    position: relative;
+    box-shadow: 5px 5px 5px black;
+    
+    
+  }
+  
+  figcaption{
+    visibility:hidden;
+  } 
+  h2{
+    color:white;
+    width:350px;
+    margin:15px;
+    background-color: black;
+    padding:5px;
+    text-align: center;
+  }
+  main{
+    width:350px;
+    margin:15px;
+  }
+.go{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 140px;
+    top: 12px;
+    border-radius: 50px;
+    background: linear-gradient(
+      rgb(106, 0, 255),
+      rgb(65, 212, 245),
+      rgb(106, 0, 255)
+    );
+    box-shadow: 5px 5px 5px black;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    outline: none;
+  }
+  
+footer{
+    width:360px;
+    height:100px;
+    background-color:rgb(76, 6, 216);
+    margin:10px;
+    box-shadow: 5px 5px 5px black;
+  }
+  

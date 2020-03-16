@@ -21,7 +21,7 @@ body {
   height: 1000px;
 }
 
-.header {
+header {
   display: flex;
   flex-direction: row;
   background: -webkit-gradient(
@@ -59,6 +59,10 @@ body {
   font-size: 1.25em;
   color: rgb(240, 255, 255);
 }
+figcaption{
+  visibility:hidden;
+} 
+
 .row1 {
   width: 375px;
   height: 210px;
@@ -293,14 +297,15 @@ body {
   text-align: center;
   color: rgb(255, 255, 255);
 }
-.icon1 {
-  width: 90px;
-  height: 100px;
-  position: relative;
-  left: 7px;
-  top: 18px;
-  box-shadow: 5px 5px 5px black;
-}
+
+.icon1{
+    width: 90px;
+    height: 100px;
+    position: relative;
+    left: 7px;
+    top: 18px;
+    box-shadow: 5px 5px 5px black;
+  }
 .icon2 {
   width: 90px;
   height: 100px;
@@ -527,4 +532,10 @@ body {
   font-size: 1.25em;
   font-weight: bold;
   padding: 4px;
+}
+footer{
+  width:360px;
+  height:100px;
+  background-color: black;
+  margin:10px;
 }

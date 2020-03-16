@@ -20,7 +20,7 @@ body {
   width: 369px;
   height: 1000px;
 }
-.header {
+header {
   display: flex;
   flex-direction: row;
   background: -webkit-gradient(
@@ -99,7 +99,7 @@ span {
   left: 25px;
 }
 
-.footer {
+footer {
   display: flex;
   flex-direction: row;
   background: -webkit-gradient(
