@@ -82,7 +82,7 @@ figcaption{
   flex-direction: column;
 }
 .silhouettes a {
-  text-decoration: none;
+  text-decoration:none;
 }
 .silhouettes p {
   position: relative;
@@ -110,6 +110,8 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
+  cursor:pointer;
+  outline:none;
 }
 .armholes {
   width: 115px;
@@ -152,6 +154,9 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
+  cursor:pointer;
+  outline:none;
+
 }
 .sleeves {
   width: 115px;
@@ -194,6 +199,9 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
+  outline:none;
+  cursor:pointer;
+  outline:none;
 }
 .button4 {
   position: relative;
@@ -211,6 +219,9 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
+  cursor:pointer;
+  outline:none;
+
 }
 .button5 {
   position: relative;
@@ -228,6 +239,9 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
+  cursor:pointer;
+  outline:none;
+
 }
 .button6 {
   position: relative;
@@ -245,6 +259,9 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
+  cursor:pointer;
+  outline:none;
+
 }
 .button7 {
   position: relative;
@@ -262,6 +279,9 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
+  cursor:pointer;
+  outline:none;
+
 }
 .button8 {
   position: relative;
@@ -279,6 +299,9 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
+  cursor:pointer;
+  outline:none;
+
 }
 .button9 {
   position: relative;
@@ -296,6 +319,9 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
+  cursor:pointer;
+  outline:none;
+
 }
 
 .icon1{
