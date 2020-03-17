@@ -9,7 +9,7 @@
 
     <title>Si1houettes</title>
 </head>
-<body>
+<body onload="startTime()">
   <section class="Outlines">
   <header>
     <div class="logo">
@@ -56,7 +56,6 @@
         <button class="buttonY" onclick ="stopAnimation();">√</button></a>
       </div>
       </div>
-
     </div>
       <footer>
         <div class="logo">
@@ -68,10 +67,17 @@
         <button class="buttonN">Next</button></a>
         </div>
       </footer>
-  </div>
+     </div>
+    </div>
+    <div class="clockdate">
+      <div id="clock">x</div>
+      <div id="date">x</div>
+    </div>
   </div>
 </section>
 
-<script src="anim.js"></script>
+  <script src="anim.js"></script>
+  <script src=updateClock.js></script>
+
 </body>
 </html>
