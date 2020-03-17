@@ -1,49 +1,62 @@
-*{
+* {
   box-sizing: border-box;
-
 }
-body{
-  background-color: rebeccapurple;
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  margin: 0;
+  height:1000px;
 }
 .clockdate-wrapper {
-    background-color: rgb(7, 210, 245);
-    padding:25px;
-    max-width:350px;
-    width:100%;
-    text-align:center;
-    border-radius:5px;
-    margin:0 auto;
-    margin:10%;
-  }
-  #clock{
-    background-color:red;
-    font-family: sans-serif;
-    font-size:60px;
-    text-shadow:0px 0px 1px #fff;
-    color:#fff;
-  }
-  #clock span {
-    color:black;
-    text-shadow:0px 0px 1px #333;
-    font-size:20px;
-    position:relative;
-    top:-27px;
-    left:-10px;
-  }
-  #date {
-    letter-spacing:10px;
-    font-size:14px;
-    font-family:arial,sans-serif;
-    color:black;
-  }
-  .buttonB2{
+  background-color: rgb(10, 250, 234);
+  padding: 25px;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin: 10%;
+}
+#clock {
+  background-color: rgb(240, 10, 10);
+  font-family: sans-serif;
+  font-size: 60px;
+  text-shadow: 0px 0px 1px #fff;
+  color: #fff;
+}
+#clock span {
+  color: black;
+  text-shadow: 0px 0px 1px #333;
+  font-size: 20px;
+  position: relative;
+  top: -27px;
+  left: -10px;
+}
+#date {
+  letter-spacing: 10px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: black;
+}
+.buttonB2 {
   width: 70px;
   height: 70px;
   border-radius: 50px;
   position: relative;
-  left: 350px;
-  background-color:red;
-  color:white;
+  left: 220px;
+  background-color: rgb(240, 10, 10);
+  color: black;
   font-size: 1em;
   box-shadow: 5px 5px 5px black;
-  }
+}
