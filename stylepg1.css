@@ -292,14 +292,12 @@ footer {
   border-radius: 50px;
   position: relative;
   left: 20px;
-  background-color:rgb(255, 0, 132);
+  background-image:url(Images/clock70x70.png);
   color:white;
   font-size: 1em;
-  box-shadow: 5px 5px 5px black;
   animation:boomerang 4s infinite;
   animation-direction: alternate;
 }
-
 @keyframes boomerang {
   0% {
     transform: translate(0, 0);    
