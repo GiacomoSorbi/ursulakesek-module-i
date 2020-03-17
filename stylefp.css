@@ -130,4 +130,10 @@ footer{
   }
   
 }
+h2{
+  position:absolute;
+  width:1000px;
+  left:400px;
+  top:50px;
+}
  }
