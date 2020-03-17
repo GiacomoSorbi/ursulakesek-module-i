@@ -19,7 +19,7 @@ function init() {
   arm1a.style.visibility = "hidden";
   arm1a.style.position = "absolute";
   arm.style.zIndex = "2";
-  arm1a.style.left = "114px";
+  arm1a.style.left = "118px";
   arm1a.style.top = "0px";
   arm1a.style.width = "250px";
   arm1a.style.height = "376px";
@@ -28,7 +28,7 @@ function init() {
   arm1b.style.visibility = "hidden";
   arm1b.style.position = "absolute";
   arm.style.zIndex = "3";
-  arm1b.style.left = "114px";
+  arm1b.style.left = "118px";
   arm1b.style.top = "0px";
   arm1b.style.width = "250px";
   arm1b.style.height = "376px";
@@ -37,7 +37,7 @@ function init() {
   arm1c.style.visibility = "hidden";
   arm1c.style.position = "absolute";
   arm.style.zIndex = "4";
-  arm1c.style.left = "114px";
+  arm1c.style.left = "118px";
   arm1c.style.top = "0px";
   arm1c.style.width = "250px";
   arm1c.style.height = "376px";
@@ -46,7 +46,7 @@ function init() {
   arm1d.style.visibility = "hidden";
   arm1d.style.position = "absolute";
   arm.style.zIndex = "5";
-  arm1d.style.left = "114px";
+  arm1d.style.left = "118px";
   arm1d.style.top = "0px";
   arm1d.style.width = "250px";
   arm1d.style.height = "376px";
@@ -55,7 +55,7 @@ function init() {
   arm1e.style.visibility = "hidden";
   arm1e.style.position = "absolute";
   arm.style.zIndex = "6";
-  arm1e.style.left = "114px";
+  arm1e.style.left = "118px";
   arm1e.style.top = "0px";
   arm1e.style.width = "250px";
   arm1e.style.height = "376px";
@@ -64,7 +64,7 @@ function init() {
   armpic3.style.visibility = "hidden";
   armpic3.style.position = "absolute";
   arm.style.zIndex = "7";
-  armpic3.style.left = "114px";
+  armpic3.style.left = "118px";
   armpic3.style.top = "0px";
   armpic3.style.width = "250px";
   armpic3.style.height = "376px";

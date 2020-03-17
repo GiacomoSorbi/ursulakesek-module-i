@@ -306,8 +306,8 @@ footer {
     transform: translate(1250px, -5px);
   }
 }
-.clock p{
-  color:black;
+.timer p{
+  color:white;
   margin:0px 20px
 } 
   
@@ -317,7 +317,6 @@ footer {
   top:-200px;
   background-color: rgb(7, 210, 245);
   padding:25px;
-  width:100%;
   text-align:center;
   border-radius:5px;
   margin:0 auto;
@@ -345,4 +344,11 @@ footer {
   font-family:arial,sans-serif;
   color:white;
   padding:3px;
+}
+@media screen and (min-width:380px){
+  .timer{
+  background-color: rgb(66, 53, 245);
+  width:1480px;
+}
+
 }
