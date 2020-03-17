@@ -1,3 +1,10 @@
+*{
+  box-sizing: border-box;
+
+}
+body{
+  background-color: rebeccapurple;
+}
 .clockdate-wrapper {
     background-color: rgb(7, 210, 245);
     padding:25px;
@@ -6,7 +13,7 @@
     text-align:center;
     border-radius:5px;
     margin:0 auto;
-    margin-top:15%;
+    margin:10%;
   }
   #clock{
     background-color:red;
@@ -28,4 +35,15 @@
     font-size:14px;
     font-family:arial,sans-serif;
     color:black;
+  }
+  .buttonB2{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  position: relative;
+  left: 350px;
+  background-color:red;
+  color:white;
+  font-size: 1em;
+  box-shadow: 5px 5px 5px black;
   }

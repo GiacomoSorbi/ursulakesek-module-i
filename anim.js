@@ -147,4 +147,5 @@ function stopAnimation() {
   const newLocalTop = (sil.style.top = "-120px");
 }
 
+
 window.onload = init;
