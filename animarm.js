@@ -86,7 +86,7 @@ function animateImage() {
 function replaceImagea() {
   arm1b.style.visibility = "visible";
   arm1a.style.visibility = "visible";
-  arm1a.style.left = `${parseInt(arm1a.style.left) + 200}px`;
+  arm1a.style.left = `${parseInt(arm1a.style.left) + 100}px`;
   arm1a.style.top = `${parseInt(arm1a.style.top) - 20}px`;
 
   animate = setTimeout(replaceImagea, 200);

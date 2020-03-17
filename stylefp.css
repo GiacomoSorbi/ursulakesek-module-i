@@ -106,6 +106,14 @@ footer{
     padding: 3px;
     text-decoration: none;
   }
+  .armup{
+    visibility:visible;
+    position: absolute;
+    left:-400px;
+    top:0px;
+  }
+
+     @media screen and (min-width:380px){
 .armup{
   position:absolute;
   left:450px;
@@ -118,8 +126,8 @@ footer{
     transform: translate(0, 0);    
   }
   100% {
-    transform: translate(1000px,-50px) rotate(1turn);
+    transform: translate(1200px,-50px) rotate(1.5turn);
   }
   
 }
-
+ }
