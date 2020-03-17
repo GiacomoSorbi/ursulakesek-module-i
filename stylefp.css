@@ -106,3 +106,20 @@ footer{
     padding: 3px;
     text-decoration: none;
   }
+.armup{
+  position:absolute;
+  left:450px;
+  top:280px;
+  animation:boomerangspin 4s ease-in 1s infinite;
+  animation-direction: alternate;
+}
+@keyframes boomerangspin {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(1000px,-50px) rotate(1turn);
+  }
+  
+}
+
