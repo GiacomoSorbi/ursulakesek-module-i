@@ -83,12 +83,12 @@ footer {
 footer a,
 footer p {
   color: white;
-  text-align: center;
+  text-align:center;
 }
 footer ul {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content:center;
   list-style: none;
 }
 footer li {

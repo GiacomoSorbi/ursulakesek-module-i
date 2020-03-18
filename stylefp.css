@@ -108,7 +108,7 @@ footer{
     text-decoration: none;
   }
   .armup{
-    visibility:visible;
+    visibility:hidden;
     position: absolute;
     left:-400px;
     top:0px;

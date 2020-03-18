@@ -592,8 +592,8 @@ background: linear-gradient(
   to(rgb(2, 231, 247))
 );
 }
+
 .seahorse{
-  padding:10px;
   animation:boomerangspin 7s ease-in 1s infinite;
   animation-direction: alternate;
 }
@@ -612,7 +612,6 @@ background: linear-gradient(
   }
 }  
 .seahorse1{
-  padding:10px;
   animation:boomerangspin 9s ease-in 1s infinite;
   animation-direction: alternate;
 }
