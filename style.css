@@ -625,4 +625,24 @@ background: linear-gradient(
     transform: translate(1500px,-10px) rotate(0.75turn);
   }
 }
+.jumper{
+  animation:boomerangs 10s ease-in 1s infinite;
+  animation-direction: alternate;
 }
+@keyframes boomerangs {
+  0% {
+    transform: translate(0, 0);    
+  }
+  25%{
+    transform: translate(750px,0px) scale(1.75,1.75)rotate(0.25turn);    
+  }
+  65%{
+    transform: translate(500px,-600px) scale(5,5);    
+  }
+  100% {
+    transform: translate(1500px,-10px) rotate(0.75turn);
+  }
+}
+
+}
+
