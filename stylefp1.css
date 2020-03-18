@@ -104,21 +104,24 @@ footer li {
   position: absolute;
   left: 450px;
   top: 280px;
-  animation: boomerang 7s ease-in 1s infinite;
+  animation: boomerangspin 7s ease-in 1s infinite;
   animation-direction: alternate;
 }
-@keyframes boomerang {
+@keyframes boomerangspin {
   0% {
     transform: translate(0, 0);
   }
   25% {
-    transform: translate(25px, -750px);
+    transform: translate(0px, -750px);
   }
   50% {
     transform: translate(700px, -250px);
   }
+  75% {
+    transform: translate(400px, 75px) rotate(0.25turn);
+  }
   100% {
-    transform: translate(700px, 0px);
+    transform: translate(10px, 0px) rotate(-0.25turn);
   }
 }
 .letsgo p {
