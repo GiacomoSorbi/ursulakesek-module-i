@@ -137,6 +137,7 @@ footer {
   font-size: 2.75em;
   text-align: center;
   color: white;
+  cursor:pointer;
   outline: none;
 }
 .buttonX {
@@ -149,6 +150,7 @@ footer {
   text-align: center;
   color: white;
   font-weight: bold;
+  cursor:pointer;
   outline: none;
 }
 .buttonY {
@@ -162,6 +164,7 @@ footer {
   color: black;
   font-weight: bold;
   outline: none;
+  cursor:pointer;
 }
 
 .buttonM {
@@ -181,6 +184,7 @@ footer {
   text-align: center;
   color: white;
   outline: none;
+  cursor:pointer;
 }
 .buttonN {
   width: 80px;
@@ -199,6 +203,8 @@ footer {
   text-align: center;
   color: white;
   outline: none;
+  cursor:pointer;
+
 }
 .buttonB {
   width: 70px;
@@ -216,6 +222,8 @@ footer {
   text-align: center;
   color: white;
   outline: none;
+  cursor:pointer;
+
 }
 .buttonC {
   width: 70px;
@@ -234,6 +242,8 @@ footer {
   text-align: center;
   color: white;
   outline: none;
+  cursor:pointer;
+
 }
 .buttonD {
   width: 70px;
@@ -251,6 +261,8 @@ footer {
   text-align: center;
   color: white;
   outline: none;
+  cursor:pointer;
+
 }
 .buttonE {
   width: 70px;
@@ -268,6 +280,8 @@ footer {
   text-align: center;
   color: white;
   outline: none;
+  cursor:pointer;
+
 }
 .buttonF {
   width: 70px;
@@ -285,6 +299,8 @@ footer {
   text-align: center;
   color: white;
   outline: none;
+  cursor:pointer;
+
 }
 .buttonT{
   width: 70px;
@@ -295,7 +311,7 @@ footer {
   background-image:url(Images/clock70x70.png);
   color:white;
   font-size: 1em;
-  animation:boomerang 4s infinite;
+  animation:boomerang 10s infinite;
   animation-direction: alternate;
 }
 @keyframes boomerang {
@@ -345,10 +361,9 @@ footer {
   color:white;
   padding:3px;
 }
-@media screen and (min-width:400px){
-  .timer{
+
+.timer{
   background-color: rgb(66, 53, 245);
-  width:1600px;
+  width:400px;
 }
 
-}

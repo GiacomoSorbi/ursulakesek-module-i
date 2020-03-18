@@ -75,10 +75,9 @@ aside {
 
 footer {
   width: 1420px;
-  height: 150px;
+  height: 130px;
   background-color: rgb(76, 6, 216);
   margin: 10px;
-  box-shadow: 5px 5px 5px black;
 }
 footer a,
 footer p {

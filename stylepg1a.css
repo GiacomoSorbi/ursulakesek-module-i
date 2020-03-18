@@ -345,10 +345,8 @@
     color:white;
     padding:3px;
   }
-  @media screen and (min-width:400px){
-    .timer{
+  .timer{
     background-color: rgb(66, 53, 245);
     width:1600px;
   }
   
-  }
