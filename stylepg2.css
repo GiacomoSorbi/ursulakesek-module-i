@@ -354,3 +354,56 @@ footer {
   height:70px;
   width:1400px;
 }
+#diver{
+  animation:boomerang 8s infinite;
+}
+@keyframes boomerang {
+  0% {
+    transform: translate(0px, 0px);    
+  }
+  50%{
+    transform: translate(10px,0px);
+  }
+  100% {
+    transform: translate(1250px,-650px)scale(4);
+  }
+}
+#mermaid{
+  animation: squiggle 8s infinite;
+}
+@keyframes squiggle {
+    0%{
+      transform:translate(0,0);
+    }
+    15%{
+      transform:translate(0,-50px) scale(1.5);
+    }
+30%{
+      transform:translate(40px,-100px);
+  }
+  45%{
+    transform:translate(0px,-250px) scale(2.5);
+  }
+  60%{
+    transform:translate(50px,-350px) scale(3);
+  }
+  75%{
+    transform:translate(0px,-450px) scale(3.5);
+  }
+  90%{
+    transform:translate(360px,-650px)scale(7.5);
+  }
+    }
+  #baloon{
+    animation:takeoff 15s infinite;
+    }
+    @keyframes takeoff{ 
+     0%{
+      transform:translate(0,-60px);
+    }
+    100%{
+      transform:translate(0px,-950px);
+    }
+  }
+
+
