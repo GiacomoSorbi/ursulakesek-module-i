@@ -559,9 +559,70 @@ figcaption{
   font-weight: bold;
   padding: 4px;
 }
-footer{
-  width:360px;
-  height:100px;
-  background-color: black;
-  margin:10px;
+.seahorse{
+  padding:10px;
+}
+.seahorse1{
+  padding:4px;
+  position: relative;
+  left:200px;
+}
+@media screen and (min-width:400px){
+
+.oneb{
+position: relative;
+margin:20px 15px;
+width:1500px;
+background: -webkit-gradient(
+  linear,
+  left top,
+  left bottom,
+  from(rgb(96, 24, 242)),
+  to(rgb(2, 231, 247))
+);
+background: linear-gradient(
+  left top,
+  left bottom,
+  from(rgb(96, 24, 242)),
+  to(rgb(2, 231, 247))
+);
+}
+.seahorse{
+  padding:10px;
+  animation:boomerangspin 7s ease-in 1s infinite;
+  animation-direction: alternate;
+}
+@keyframes boomerangspin {
+  0% {
+    transform: translate(0, 0);    
+  }
+  50%{
+    transform: translate(600px,0px) scale(1.75,1.75)rotate(0.5turn);    
+  }
+  75%{
+    transform: translate(800px,-500px) scale(5,5);    
+  }
+  100% {
+    transform: translate(1500px,-10px) rotate(0.75turn);
+  }
+}  
+.seahorse1{
+  padding:10px;
+  animation:boomerangspin 9s ease-in 1s infinite;
+  animation-direction: alternate;
+}
+@keyframes boomerangspin {
+  0% {
+    transform: translate(0, 0);    
+  }
+  50%{
+    transform: translate(700px,0px) scale(1.75,1.75)rotate(0.25turn);    
+  }
+  65%{
+    transform: translate(900px,-500px) scale(5,5);    
+  }
+  100% {
+    transform: translate(1500px,-10px) rotate(0.75turn);
+  }
+}
 }
