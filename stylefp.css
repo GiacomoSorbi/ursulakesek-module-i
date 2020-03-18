@@ -65,6 +65,7 @@
     height: 80px;
     position: relative;
     left: 250px;
+    top:-40px;
     border-radius: 50px;
     background: linear-gradient(
       rgb(106, 0, 255),
@@ -113,30 +114,3 @@ footer{
     top:0px;
   }
 
-     @media screen and (min-width:380px){
-.armup{
-  position:absolute;
-  left:450px;
-  top:280px;
-  animation:boomerangspin 4s ease-in 1s infinite;
-  animation-direction: alternate;
-}
-@keyframes boomerangspin {
-  0% {
-    transform: translate(0, 0);    
-  }
-  100% {
-    transform: translate(1200px,-50px) rotate(1.5turn);
-  }
-  
-}
-.letsgo p{
-  background-color: black;
-  position:absolute;
-  width:1000px;
-  left:400px;
-  top:50px;
-  font-size: 1.5em;
-  color:white;
-}
- }

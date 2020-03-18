@@ -567,6 +567,11 @@ figcaption{
   position: relative;
   left:200px;
 }
+.jumper{
+  padding:4px;
+  position: relative;
+  left:-20px;
+}
 @media screen and (min-width:400px){
 
 .oneb{

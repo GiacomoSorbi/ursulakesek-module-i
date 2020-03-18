@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  margin: 0;
+  width: 1400px;
+  height: 920px;
+}
+.logo {
+  margin: 25px 15px 25px 15px;
+  width: 350px;
+  height: 100px;
+  position: relative;
+  box-shadow: 5px 5px 5px black;
+}
+figcaption {
+  visibility: hidden;
+}
+h2 {
+  color: white;
+  width: 350px;
+  margin: 15px;
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+}
+main {
+  width: 1400px;
+  margin: 15px;
+}
+h3 {
+  color: white;
+  margin: 15px;
+  padding: 5px 25px;
+  background-color: black;
+}
+aside {
+  height: 190px;
+  background-color: black;
+  margin: 15px;
+  width: 350px;
+}
+.go {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 250px;
+  top: -40px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+footer {
+  width: 1420px;
+  height: 150px;
+  background-color: rgb(76, 6, 216);
+  margin: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+footer a,
+footer p {
+  color: white;
+  text-align: center;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+footer li {
+  margin: 10px 35px 0px 10px;
+}
+.icons a {
+  background-color: rgba(249, 6, 119, 1);
+  padding: 3px;
+  text-decoration: none;
+}
+
+.armup {
+  position: absolute;
+  left: 450px;
+  top: 280px;
+  animation: boomerang 7s ease-in 1s infinite;
+  animation-direction: alternate;
+}
+@keyframes boomerang {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(25px, -750px);
+  }
+  50% {
+    transform: translate(700px, -250px);
+  }
+  100% {
+    transform: translate(700px, 0px);
+  }
+}
+.letsgo p {
+  background-color: black;
+  position: absolute;
+  width: 1000px;
+  left: 400px;
+  top: 50px;
+  font-size: 1.5em;
+  color: white;
+}
