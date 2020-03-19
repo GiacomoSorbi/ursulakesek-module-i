@@ -103,10 +103,22 @@ aside {
   position: absolute;
   width: 1000px;
   left: 400px;
-  top: 50px;
+  top: 70px;
   text-align: center;
   font-size: 1.5em;
   color: white;
+  z-index:-1;
+}
+h1{
+  background-color: black;
+  position: absolute;
+  width: 1000px;
+  left: 400px;
+  top: 30px;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  z-index:-1;
 }
 footer{
   width:1500px;
