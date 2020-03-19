@@ -50,6 +50,12 @@
     height: 100px;
     box-shadow: 5px 5px 5px black;
   }
+  .logo1 img{
+    margin:10px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 5px black;
+  }
   .htext {
     position: relative;
     left: 10px;
@@ -97,8 +103,7 @@
     position: relative;
     left: 25px;
   }
-  
-  footer {
+  .logo1 {
     display: flex;
     flex-direction: row;
     background: -webkit-gradient(
@@ -168,7 +173,7 @@
     width: 80px;
     height: 80px;
     position: relative;
-    left: 20px;
+    left: 40px;
     top: 20px;
     border-radius: 50px;
     background: linear-gradient(
@@ -186,7 +191,7 @@
     width: 80px;
     height: 80px;
     position: relative;
-    left: 50px;
+    left: 80px;
     top: 20px;
     border-radius: 50px;
     background: linear-gradient(
@@ -295,7 +300,7 @@
     background-image:url(Images/clock70x70.png);
     color:white;
     font-size: 1em;
-    animation:boomerang 4s infinite;
+    animation:boomerang 5s infinite;
     animation-direction: alternate;
   }
   @keyframes boomerang {
@@ -303,14 +308,14 @@
       transform: translate(0, 0);    
     }
     100% {
-      transform: translate(1250px, -5px);
+      transform: translate(0px,650px);
     }
   }
   .timer p{
-    color:white;
-    margin:0px 20px
+    color:black;
+    margin:10px;
+    font-size: 1.5em;
   } 
-    
   .clockdate-wrapper {
     position: relative;
     left:450px;
@@ -346,7 +351,28 @@
     padding:3px;
   }
   .timer{
-    background-color: rgb(66, 53, 245);
-    width:1600px;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgb(2,231,247)),
+      to(rgb(96,24,242))
+    );
+    background: linear-gradient(
+      left top,
+      left bottom,
+      from(rgb(2,231,247)),
+      to(rgb(96,24,242))
+    );
+    position:relative;
+    left:1340px;
+    top:-800px;
+    width:100px;
+    height:800px;
   }
   
+footer{
+  position: relative;
+  top:-820px;
+  width:1500px;
+}

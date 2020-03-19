@@ -69,7 +69,7 @@ function animateImage() {
   /*sil1c.style.visibility = "visible";*/
   sil1a.style.visibility = "visible";
   sil.style.visibility = "visible";
-  sil.style.left = `${parseInt(sil.style.left) + 1100}px`;
+  sil.style.left = `${parseInt(sil.style.left) + 1000}px`;
   sil.style.top = `${parseInt(sil.style.top) - 120}px`;
 
   /*sil.style.width = parseInt(sil.style.width) + 25 + "px";*/
@@ -83,7 +83,7 @@ function animateImage() {
 function replaceImage() {
   sil1b.style.visibility = "visible";
   sil1a.style.visibility = "visible";
-  sil1a.style.left = `${parseInt(sil1a.style.left) + 520}px`;
+  sil1a.style.left = `${parseInt(sil1a.style.left) + 420}px`;
   sil1a.style.top = `${parseInt(sil1a.style.top) - 120}px`;
   /*animate = setTimeout([replaceImage , stopAnimation], 500);*/
   animate = setTimeout(() =>{replaceImage},1500);
@@ -96,7 +96,7 @@ function replaceImage() {
 function replaceImageb() {
   sil1c.style.visibility = "visible";
   sil1b.style.visibility = "visible";
-  sil1b.style.left = `${parseInt(sil1b.style.left) + 850}px`;
+  sil1b.style.left = `${parseInt(sil1b.style.left) + 750}px`;
   sil1b.style.top = `${parseInt(sil1b.style.top) - 120}px`;
 
   animate = setTimeout(() =>{replaceImage},1500);
@@ -109,7 +109,7 @@ function replaceImageb() {
 function replaceImagec() {
   sil1d.style.visibility = "visible";
   sil1c.style.visibility = "visible";
-  sil1c.style.left = `${parseInt(sil1c.style.left) + 350}px`;
+  sil1c.style.left = `${parseInt(sil1c.style.left) + 300}px`;
   sil1c.style.top = `${parseInt(sil1c.style.top) + 270}px`;
 
   animate = setTimeout(() =>{replaceImage},1500);
@@ -120,7 +120,7 @@ function replaceImagec() {
 function replaceImaged() {
   sil1e.style.visibility = "visible";
   sil1d.style.visibility = "visible";
-  sil1d.style.left = `${parseInt(sil1d.style.left) + 680}px`;
+  sil1d.style.left = `${parseInt(sil1d.style.left) + 630}px`;
   sil1d.style.top = `${parseInt(sil1d.style.top) + 270}px`;
 
   animate = setTimeout(() =>{replaceImage},1500);
@@ -131,7 +131,7 @@ function replaceImaged() {
 function replaceImagee() {
   silor.style.visibility = "visible";
   sil1e.style.visibility = "visible";
-  sil1e.style.left = `${parseInt(sil1e.style.left) + 1010}px`;
+  sil1e.style.left = `${parseInt(sil1e.style.left) + 960}px`;
   sil1e.style.top = `${parseInt(sil1e.style.top) + 270}px`;
 
 

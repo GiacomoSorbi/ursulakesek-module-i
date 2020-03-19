@@ -73,31 +73,6 @@ aside {
   cursor: pointer;
 }
 
-footer {
-  width: 1420px;
-  height: 130px;
-  background-color: rgb(76, 6, 216);
-  margin: 10px;
-}
-footer a,
-footer p {
-  color: white;
-  text-align:center;
-}
-footer ul {
-  display: flex;
-  flex-direction: row;
-  justify-content:center;
-  list-style: none;
-}
-footer li {
-  margin: 10px 35px 0px 10px;
-}
-.icons a {
-  background-color: rgba(249, 6, 119, 1);
-  padding: 3px;
-  text-decoration: none;
-}
 
 .armup {
   position: absolute;
@@ -129,6 +104,7 @@ footer li {
   width: 1000px;
   left: 400px;
   top: 50px;
+  text-align: center;
   font-size: 1.5em;
   color: white;
 }

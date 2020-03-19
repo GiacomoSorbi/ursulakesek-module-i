@@ -16,7 +16,7 @@ body {
     to(rgb(2, 231, 247))
   );
   margin: 0;
-  width: 375px;
+  width: 400px;
   height: 900px;
   border: 5px solid black;
 }

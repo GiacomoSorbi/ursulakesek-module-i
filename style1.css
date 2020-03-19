@@ -3,56 +3,65 @@
       linear,
       left top,
       left bottom,
-      from(rgb(96, 24, 242)),
-      to(rgb(2, 231, 247))
+      from(rgb(2, 231, 247)),
+      to(rgb(96, 24, 242))
     );
     background: linear-gradient(
       left top,
       left bottom,
-      from(rgb(96, 24, 242)),
-      to(rgb(2, 231, 247))
+      from(rgb(2, 231, 247)),
+      to(rgb(96, 24, 242))
     );
-    position: relative;
-    margin:20px 15px;
     width:2000px;
-    height:90px;
+    height:120px;
+    position: absolute;
+    left:383px;
+    top:685px;
+
     }
     .seahorse{
-      animation:boomerangspin 7s ease-in 1s infinite;
+      animation:boomerangspin 15s ease-in 1s infinite;
       animation-direction: alternate;
     }
     @keyframes boomerangspin {
       0% {
-        transform: translate(0, 0) scale(0.75,0.75);    
+        transform: translate(0, 0) scale(1,1);    
+      }
+      30%{
+        transform: translate(200px,0px) scale(1.75,1.75)rotate(0.5turn);    
       }
       50%{
-        transform: translate(600px,0px) scale(1.75,1.75)rotate(0.5turn);    
+        transform: translate(400px,0px) scale(2,2)rotate(-0.25turn);    
       }
       75%{
-        transform: translate(800px,-500px) scale(5,5);    
+        transform: translate(500px,-500px) scale(5,5);    
       }
       100% {
-        transform: translate(1500px,-10px) rotate(0.75turn);
+        transform: translate(700px,-10px) rotate(0.75turn);
       }
     }  
     .seahorse1{
-      animation:boomerangspin 9s ease-in 1s infinite;
+      animation:boomerangspin 10s ease-in 1s infinite;
       animation-direction: alternate;
     }
     @keyframes boomerangspin {
       0% {
-        transform: translate(0, 0) scale(0.75,0.75);    
+        transform: translate(0, 0) scale(1,1);    
+      }
+      30%{
+        transform: translate(200px,0px) scale(1.75,1.75)rotate(0.5turn);    
       }
       50%{
-        transform: translate(700px,0px) scale(1.75,1.75)rotate(0.25turn);    
+        transform: translate(400px,0px) scale(2.5,2.5)rotate(-0.25turn);    
       }
-      65%{
-        transform: translate(900px,-500px) scale(5,5);    
+      75%{
+        transform: translate(500px,-500px) scale(5,5);    
       }
       100% {
-        transform: translate(1500px,-10px) rotate(0.75turn);
+        transform: translate(700px,-10px) rotate(0.5turn);
       }
-    }
+    }  
+    
     .jumper{
       animation:boomerangs 10s ease-in 1s infinite;
       animation-direction: alternate;
@@ -65,13 +74,15 @@
         transform: translate(750px,0px) scale(1.75,1.75)rotate(0.25turn);    
       }
       65%{
-        transform: translate(500px,-600px) scale(5,5);    
+        transform: translate(0px,-600px) scale(5,5);    
       }
       100% {
-        transform: translate(1500px,-10px) rotate(0.75turn);
+        transform: translate(1000px,-10px) rotate(-0.75turn);
       }
     }
-    
+    footer{
+      width:1500px;
+    }
     
     
     
