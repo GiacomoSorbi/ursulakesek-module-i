@@ -42,7 +42,6 @@ header {
   background-color: rgb(0, 255, 255);
   margin: 10px;
 }
-
 .logo {
   background-color: rgba(240, 255, 255, 0.6);
   margin: 10px;
@@ -75,7 +74,6 @@ header {
   padding:10px;
   background-color:rgb(38, 75, 238);
   color:white;
-
 }
 .armshapes {
   width: 369px;
@@ -107,13 +105,11 @@ header {
   height: 535px;
   background-color: rgb(125, 5, 67);
 }
-
 span {
   color: white;
   position: relative;
   left: 25px;
 }
-
 footer {
   display: flex;
   flex-direction:column;
@@ -178,7 +174,6 @@ footer {
   font-weight: bold;
   outline: none;
 }
-
 .buttonM {
   width: 80px;
   height: 80px;
@@ -230,7 +225,6 @@ footer {
   color: black;
   outline: none;
 }
-
 .buttonB {
   width: 70px;
   height: 70px;
@@ -379,14 +373,12 @@ footer {
     left bottom,
     from(rgb(96, 24, 242)),
     to(rgb(2, 231, 247))
-  
     );
     width:2000px;
     height:110px;
     position: absolute;
     left:395px;
     top:688px;
-
     }
 #diver{
   animation:boomerang 8s infinite;
@@ -400,6 +392,7 @@ footer {
   }
 }
 #mermaid{
+  z-index:1;
   animation: squiggle 10s infinite;
   animation-timing-function: cubic-bezier(1, 1, 1, 1);
 }

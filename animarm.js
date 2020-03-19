@@ -127,7 +127,7 @@ function replaceImagee() {
 
 function stopAnimation() {
   clearTimeout(animate, 1000);
-  const newLocalLeft = (arm.style.left = "400px");
+  const newLocalLeft = (arm.style.left = "1000px");
   const newLocalTop = (arm.style.top = "- 120px");
 }
 
