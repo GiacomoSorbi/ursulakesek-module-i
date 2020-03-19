@@ -379,6 +379,7 @@ footer{
 #star{
   position:absolute;
   left:950px;
+  z-index:(-1);
   animation:starfishmove 15s infinite;
   animation-direction: alternate;
 }
@@ -387,10 +388,10 @@ footer{
     transform: translate(0, 0);    
   }
   50% {
-    transform: translate(250px,-150px);
+    transform: translate(-450px,-150px);
   }
   100%{
-    transform: translate(250px,-150px)rotate(1turn);
+    transform: translate(-450px,-150px)rotate(1turn);
   }
 }
 
