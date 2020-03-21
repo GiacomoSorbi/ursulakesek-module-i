@@ -64,3 +64,12 @@ body {
   font-size: 1em;
   box-shadow: 5px 5px 5px black;
 }
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+-webkit-appearance: none;
+border-radius: 0;
+}
