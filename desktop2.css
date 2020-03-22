@@ -16,7 +16,7 @@ body {
     to(rgb(2, 231, 247))
   );
   margin: 0;
-  width: 369px;
+  width: 1600px;
   height: 920px;
 }
 header {
@@ -128,7 +128,7 @@ footer {
     to(rgb(37, 185, 239))
   );
   border: 3px solid black;
-  width: 1500px;
+  width: 1600px;
   height: 100px;
 }
 .buttonA {
@@ -317,6 +317,7 @@ footer {
 .choice4,
 .choice5 {
   height: 90px;
+  width:400px;
   background-color: black;
   margin-top: 5px;
   margin-left: 25px;
@@ -374,7 +375,7 @@ footer {
     from(rgb(96, 24, 242)),
     to(rgb(2, 231, 247))
     );
-    width:2000px;
+    width:1650px;
     height:110px;
     position: absolute;
     left:395px;
