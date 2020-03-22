@@ -26,6 +26,18 @@ body {
   position: relative;
   box-shadow: 5px 5px 5px black;
 }
+h1{
+  background-color: black;
+  position: absolute;
+  width: 1000px;
+  left: 400px;
+  top: 30px;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  z-index:-1;
+}
+
 figcaption {
   visibility: hidden;
 }
@@ -102,17 +114,6 @@ aside {
   width: 1000px;
   left: 400px;
   top: 70px;
-  text-align: center;
-  font-size: 1.5em;
-  color: white;
-  z-index:-1;
-}
-h1{
-  background-color: black;
-  position: absolute;
-  width: 1000px;
-  left: 400px;
-  top: 30px;
   text-align: center;
   font-size: 1.5em;
   color: white;
