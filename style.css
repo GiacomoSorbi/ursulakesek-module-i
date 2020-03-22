@@ -51,8 +51,8 @@ header {
 }
 .htext {
   position: relative;
-  left: 50px;
-  top: 55px;
+  left: 10px;
+  top: 40px;
   font-size: 1.25em;
   color: rgb(240, 255, 255);
 }
