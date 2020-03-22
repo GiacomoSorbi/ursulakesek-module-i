@@ -49,11 +49,10 @@ header {
   height: 100px;
   box-shadow: 5px 5px 5px black;
 }
-.htext {
+h1 {
   position: relative;
   left: 50px;
   top: 55px;
-  font-size: 1.25em;
   color: rgb(240, 255, 255);
 }
 figcaption{
