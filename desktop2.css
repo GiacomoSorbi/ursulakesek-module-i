@@ -336,6 +336,7 @@ footer {
 }
 .mail {
   height: 40px;
+  width:400px;
   background-color:black;
   margin-left: 25px;
   padding:0px 3px 0px 6px;
