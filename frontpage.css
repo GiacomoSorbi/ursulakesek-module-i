@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 body {
@@ -45,7 +45,7 @@ main {
 }
 h3 {
   position: relative;
-  top: 0px;
+  top: -90px;
   color: white;
   margin: 15px;
   padding: 5px 25px;
@@ -77,9 +77,8 @@ aside {
   cursor: pointer;
 }
 .striped {
-  visibility:hidden;
+  visibility: hidden;
   position: absolute;
   left: -400px;
   top: 0px;
 }
-
