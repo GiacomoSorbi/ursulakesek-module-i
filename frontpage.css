@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 body {
@@ -81,10 +81,4 @@ aside {
   position: absolute;
   left: -400px;
   top: 0px;
-}
-@media screen and (min-width: 400px) {
-  footer {
-    position: relative;
-    top: 150px;
-  }
 }

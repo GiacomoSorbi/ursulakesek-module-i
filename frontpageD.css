@@ -86,6 +86,7 @@ aside {
   cursor: pointer;
 }
 .striped {
+  visibility:visible;
   position: absolute;
   left: 450px;
   top: 280px;
@@ -123,5 +124,4 @@ aside {
 footer{
   width:1500px;
   height:130px;
-  left:0px;
 }
