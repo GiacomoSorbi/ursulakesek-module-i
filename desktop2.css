@@ -27,13 +27,13 @@ header {
     left top,
     left bottom,
     from(rgb(96, 24, 242)),
-    to(rgb(37, 185, 239))
+    to(rgb(2, 231, 247))
   );
   background: linear-gradient(
     left top,
     left bottom,
     from(rgb(96, 24, 242)),
-    to(rgb(37, 185, 239))
+    to(rgb(2, 231, 247))
   );
   border: 3px solid black;
   border-radius: 10px;
@@ -113,20 +113,21 @@ footer {
     left top,
     left bottom,
     from(rgb(96, 24, 242)),
-    to(rgb(37, 185, 239))
+    to(rgb(2, 231, 247))
   );
   background: linear-gradient(
     left top,
     left bottom,
     from(rgb(96, 24, 242)),
-    to(rgb(37, 185, 239))
+    to(rgb(2, 231, 247))
   );
   border: 3px solid black;
   width: 1600px;
   height: 100px;
 }
 .buttonA,.buttonB,.buttonC,
-.buttonD,.buttonE,.buttonF {
+.buttonD,.buttonE,.buttonF,
+.buttonM,.buttonN,.buttonB2 {
   width: 70px;
   height: 70px;
   position: relative;
@@ -142,8 +143,9 @@ footer {
   text-align: center;
   color: black;
   outline: none;
+  cursor:pointer;
 }
-.buttonX {
+.buttonX,.buttonY {
   width: 40px;
   height: 20px;
   position: relative;
@@ -155,36 +157,19 @@ footer {
   color: white;
   font-weight: bold;
   outline: none;
+  cursor:pointer;
 }
 .buttonY {
-  width: 40px;
-  height: 20px;
-  position: relative;
-  top: 5px;
   left: 60px;
-  border-radius: 50px;
   background-color: lightgreen;
-  text-align: center;
   color: black;
-  font-weight: bold;
-  outline: none;
 }
 .buttonM,.buttonN,.buttonB2 {
   width: 80px;
   height: 80px;
-  position: relative;
-  top: 20px;
-  border-radius: 50px;
-  background: linear-gradient(
-    rgb(255, 0, 225),
-    rgb(250, 250, 3),
-    rgb(255, 0, 225)
-  );
-  box-shadow: 5px 5px 5px black;
   font-size: 1.5em;
-  text-align: center;
-  color: black;
-  outline: none;
+  position: relative;
+  top:15px;
 }
 .choice1,
 .choice2,

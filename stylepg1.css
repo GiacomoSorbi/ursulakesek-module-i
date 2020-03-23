@@ -169,7 +169,8 @@ footer {
   height: 130px;
   background-color: rgb(0, 255, 255);
 }
-.buttonA {
+.buttonA,.buttonB,.buttonC,
+.buttonD,.buttonE,.buttonF {
   width: 70px;
   height: 70px;
   position: relative;
@@ -187,7 +188,7 @@ footer {
   cursor:pointer;
   outline: none;
 }
-.buttonX {
+.buttonX,.buttonY {
   width: 40px;
   height: 20px;
   position: relative;
@@ -201,20 +202,13 @@ footer {
   outline: none;
 }
 .buttonY {
-  width: 40px;
-  height: 20px;
   position: relative;
   left: 60px;
-  border-radius: 50px;
   background-color: lightgreen;
-  text-align: center;
   color: black;
-  font-weight: bold;
-  outline: none;
-  cursor:pointer;
 }
 
-.buttonM {
+.buttonM,.buttonN {
   width: 80px;
   height: 80px;
   position: relative;
@@ -234,119 +228,8 @@ footer {
   cursor:pointer;
 }
 .buttonN {
-  width: 80px;
-  height: 80px;
   position: relative;
   left: 180px;
-  top: 20px;
-  border-radius: 50px;
-  background: linear-gradient(
-    rgb(106, 0, 255),
-    rgb(65, 212, 245),
-    rgb(106, 0, 255)
-  );
-  box-shadow: 5px 5px 5px black;
-  font-size: 1.5em;
-  text-align: center;
-  color: white;
-  outline: none;
-  cursor:pointer;
-
-}
-.buttonB {
-  width: 70px;
-  height: 70px;
-  position: relative;
-  left: 20px;
-  border-radius: 50px;
-  background: linear-gradient(
-    rgb(106, 0, 255),
-    rgb(65, 212, 245),
-    rgb(106, 0, 255)
-  );
-  box-shadow: 5px 5px 5px black;
-  font-size: 2.75em;
-  text-align: center;
-  color: white;
-  outline: none;
-  cursor:pointer;
-
-}
-.buttonC {
-  width: 70px;
-  height: 70px;
-  position: relative;
-  left: 20px;
-
-  border-radius: 50px;
-  background: linear-gradient(
-    rgb(106, 0, 255),
-    rgb(65, 212, 245),
-    rgb(106, 0, 255)
-  );
-  box-shadow: 5px 5px 5px black;
-  font-size: 2.75em;
-  text-align: center;
-  color: white;
-  outline: none;
-  cursor:pointer;
-
-}
-.buttonD {
-  width: 70px;
-  height: 70px;
-  position: relative;
-  left: 20px;
-  border-radius: 50px;
-  background: linear-gradient(
-    rgb(106, 0, 255),
-    rgb(65, 212, 245),
-    rgb(106, 0, 255)
-  );
-  box-shadow: 5px 5px 5px black;
-  font-size: 2.75em;
-  text-align: center;
-  color: white;
-  outline: none;
-  cursor:pointer;
-
-}
-.buttonE {
-  width: 70px;
-  height: 70px;
-  position: relative;
-  left: 20px;
-  border-radius: 50px;
-  background: linear-gradient(
-    rgb(106, 0, 255),
-    rgb(65, 212, 245),
-    rgb(106, 0, 255)
-  );
-  box-shadow: 5px 5px 5px black;
-  font-size: 2.75em;
-  text-align: center;
-  color: white;
-  outline: none;
-  cursor:pointer;
-
-}
-.buttonF {
-  width: 70px;
-  height: 70px;
-  position: relative;
-  left: 20px;
-  border-radius: 50px;
-  background: linear-gradient(
-    rgb(106, 0, 255),
-    rgb(65, 212, 245),
-    rgb(106, 0, 255)
-  );
-  box-shadow: 5px 5px 5px black;
-  font-size: 2.75em;
-  text-align: center;
-  color: white;
-  outline: none;
-  cursor:pointer;
 
 }
 .buttonT{
