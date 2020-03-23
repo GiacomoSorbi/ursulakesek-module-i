@@ -1,9 +1,8 @@
-window.addEventListener('DOMContentLoaded', (event) => {
-  console.log('DOM fully loaded and parsed');
+window.addEventListener("DOMContentLoaded", event => {
+  console.log("DOM fully loaded and parsed");
 });
 
-
-let sil = null; 
+let sil = null;
 let animate;
 
 function init() {
@@ -74,10 +73,15 @@ function animateImage() {
 
   /*sil.style.width = parseInt(sil.style.width) + 25 + "px";*/
   /*sil.style.height = parseInt(sil.style.height) - 25 + "px";*/
-  animate = setTimeout(() =>{animateImage},1500);
-  if(  sil.style.left = `${parseInt(sil.style.left) + 600}px`);
-  { setTimeout(() =>{stopAnimation},1500);
-}
+  animate = setTimeout(() => {
+    animateImage;
+  }, 1500);
+  if ((sil.style.left = `${parseInt(sil.style.left) + 600}px`));
+  {
+    setTimeout(() => {
+      stopAnimation;
+    }, 1500);
+  }
 }
 
 function replaceImage() {
@@ -86,11 +90,15 @@ function replaceImage() {
   sil1a.style.left = `${parseInt(sil1a.style.left) + 420}px`;
   sil1a.style.top = `${parseInt(sil1a.style.top) - 120}px`;
   /*animate = setTimeout([replaceImage , stopAnimation], 500);*/
-  animate = setTimeout(() =>{replaceImage},1500);
-  if(  sil1a.style.left = `${parseInt(sil1a.style.left) + 0}px`);
-  { setTimeout(() =>{stopAnimation},1500);
-}
-
+  animate = setTimeout(() => {
+    replaceImage;
+  }, 1500);
+  if ((sil1a.style.left = `${parseInt(sil1a.style.left) + 0}px`));
+  {
+    setTimeout(() => {
+      stopAnimation;
+    }, 1500);
+  }
 }
 
 function replaceImageb() {
@@ -99,12 +107,15 @@ function replaceImageb() {
   sil1b.style.left = `${parseInt(sil1b.style.left) + 750}px`;
   sil1b.style.top = `${parseInt(sil1b.style.top) - 120}px`;
 
-  animate = setTimeout(() =>{replaceImage},1500);
-  if(  sil1b.style.left = `${parseInt(sil1b.style.left) + 0}px`);
-  { setTimeout(() =>{stopAnimation},1500);
-}
-
-
+  animate = setTimeout(() => {
+    replaceImage;
+  }, 1500);
+  if ((sil1b.style.left = `${parseInt(sil1b.style.left) + 0}px`));
+  {
+    setTimeout(() => {
+      stopAnimation;
+    }, 1500);
+  }
 }
 function replaceImagec() {
   sil1d.style.visibility = "visible";
@@ -112,10 +123,15 @@ function replaceImagec() {
   sil1c.style.left = `${parseInt(sil1c.style.left) + 300}px`;
   sil1c.style.top = `${parseInt(sil1c.style.top) + 270}px`;
 
-  animate = setTimeout(() =>{replaceImage},1500);
-  if(  sil1c.style.left = `${parseInt(sil1c.style.left) + 0}px`);
-  { setTimeout(() =>{stopAnimation},1500);
-}
+  animate = setTimeout(() => {
+    replaceImage;
+  }, 1500);
+  if ((sil1c.style.left = `${parseInt(sil1c.style.left) + 0}px`));
+  {
+    setTimeout(() => {
+      stopAnimation;
+    }, 1500);
+  }
 }
 function replaceImaged() {
   sil1e.style.visibility = "visible";
@@ -123,10 +139,15 @@ function replaceImaged() {
   sil1d.style.left = `${parseInt(sil1d.style.left) + 630}px`;
   sil1d.style.top = `${parseInt(sil1d.style.top) + 270}px`;
 
-  animate = setTimeout(() =>{replaceImage},1500);
-  if(  sil1d.style.left = `${parseInt(sil1d.style.left) + 0}px`);
-  { setTimeout(() =>{stopAnimation},1500);
-}
+  animate = setTimeout(() => {
+    replaceImage;
+  }, 1500);
+  if ((sil1d.style.left = `${parseInt(sil1d.style.left) + 0}px`));
+  {
+    setTimeout(() => {
+      stopAnimation;
+    }, 1500);
+  }
 }
 function replaceImagee() {
   silor.style.visibility = "visible";
@@ -134,11 +155,15 @@ function replaceImagee() {
   sil1e.style.left = `${parseInt(sil1e.style.left) + 960}px`;
   sil1e.style.top = `${parseInt(sil1e.style.top) + 270}px`;
 
-
-  animate = setTimeout(() =>{replaceImage},1500);
-  if(  sil1e.style.left = `${parseInt(sil1e.style.left) + 0}px`);
-  { setTimeout(() =>{stopAnimation},1500);
-}
+  animate = setTimeout(() => {
+    replaceImage;
+  }, 1500);
+  if ((sil1e.style.left = `${parseInt(sil1e.style.left) + 0}px`));
+  {
+    setTimeout(() => {
+      stopAnimation;
+    }, 1500);
+  }
 }
 
 function stopAnimation() {
@@ -146,6 +171,5 @@ function stopAnimation() {
   const newLocalLeft = (sil.style.left = "1400px");
   const newLocalTop = (sil.style.top = "-120px");
 }
-
 
 window.onload = init;
