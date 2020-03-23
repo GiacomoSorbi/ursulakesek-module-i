@@ -12,7 +12,7 @@
       from(rgb(2, 231, 247)),
       to(rgb(96, 24, 242))
     );
-    width:1600px;
+    width:2000px;
     height:150px;
     position: absolute;
     left:383px;
@@ -81,7 +81,7 @@
       }
     }
     footer{
-      width:1500px;
+      width:2000px;
     }
     
     
