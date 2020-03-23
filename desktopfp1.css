@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin:0 auto;
 }
 body {
   background: -webkit-gradient(
@@ -122,4 +123,5 @@ aside {
 footer{
   width:1500px;
   height:130px;
+  left:0px;
 }
