@@ -217,7 +217,8 @@ footer {
     to(rgb(2, 231, 247))
   );
   height:110px;
-  width:400px;
+  width:430px;
+  margin:10px;
   display:flex;
   flex-direction: row;
   justify-content: space-evenly;
