@@ -17,7 +17,7 @@ body {
   );
   margin: 0;
   width: 369px;
-  height:1000px;
+  height: 1000px;
 }
 header {
   display: flex;
@@ -55,9 +55,9 @@ h1 {
   top: 55px;
   color: rgb(240, 255, 255);
 }
-figcaption{
-  visibility:hidden;
-} 
+figcaption {
+  visibility: hidden;
+}
 .row1 {
   width: 375px;
   height: 210px;
@@ -77,7 +77,7 @@ figcaption{
   flex-direction: column;
 }
 .silhouettes a {
-  text-decoration:none;
+  text-decoration: none;
 }
 .silhouettes p {
   position: relative;
@@ -104,8 +104,8 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
-  cursor:pointer;
-  outline:none;
+  cursor: pointer;
+  outline: none;
 }
 .armholes {
   width: 115px;
@@ -147,8 +147,8 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
-  cursor:pointer;
-  outline:none;
+  cursor: pointer;
+  outline: none;
 }
 .sleeves {
   width: 115px;
@@ -190,9 +190,9 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
-  outline:none;
-  cursor:pointer;
-  outline:none;
+  outline: none;
+  cursor: pointer;
+  outline: none;
 }
 .button4 {
   position: relative;
@@ -210,8 +210,8 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
-  cursor:pointer;
-  outline:none;
+  cursor: pointer;
+  outline: none;
 }
 .button5 {
   position: relative;
@@ -229,8 +229,8 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
-  cursor:pointer;
-  outline:none;
+  cursor: pointer;
+  outline: none;
 }
 .button6 {
   position: relative;
@@ -248,8 +248,8 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
-  cursor:pointer;
-  outline:none;
+  cursor: pointer;
+  outline: none;
 }
 .button7 {
   position: relative;
@@ -267,8 +267,8 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
-  cursor:pointer;
-  outline:none;
+  cursor: pointer;
+  outline: none;
 }
 .button8 {
   position: relative;
@@ -286,8 +286,8 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
-  cursor:pointer;
-  outline:none;
+  cursor: pointer;
+  outline: none;
 }
 .button9 {
   position: relative;
@@ -305,17 +305,17 @@ figcaption{
   font-size: 2.75em;
   text-align: center;
   color: rgb(255, 255, 255);
-  cursor:pointer;
-  outline:none;
+  cursor: pointer;
+  outline: none;
 }
-.icon1{
-    width: 90px;
-    height: 100px;
-    position: relative;
-    left: 7px;
-    top: 18px;
-    box-shadow: 5px 5px 5px black;
-  }
+.icon1 {
+  width: 90px;
+  height: 100px;
+  position: relative;
+  left: 7px;
+  top: 18px;
+  box-shadow: 5px 5px 5px black;
+}
 .icon2 {
   width: 90px;
   height: 100px;
@@ -539,19 +539,19 @@ figcaption{
   font-weight: bold;
   padding: 4px;
 }
-.seahorse{
-  padding:4px;
+.seahorse {
+  padding: 4px;
 }
-.seahorse1{
-  padding:4px;
+.seahorse1 {
+  padding: 4px;
   position: relative;
-  left:200px;
+  left: 200px;
 }
-.jumper{
-  padding:4px;
+.jumper {
+  padding: 4px;
   position: relative;
-  left:-20px;
+  left: -20px;
 }
-footer{
-  width:400px;
+footer {
+  width: 400px;
 }
