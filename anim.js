@@ -69,7 +69,7 @@ function animateImage() {
   /*sil1c.style.visibility = "visible";*/
   sil1a.style.visibility = "visible";
   sil.style.visibility = "visible";
-  sil.style.left = `${parseInt(sil.style.left) + 1000}px`;
+  sil.style.left = `${parseInt(sil.style.left) + 800}px`;
   sil.style.top = `${parseInt(sil.style.top) - 120}px`;
 
   /*sil.style.width = parseInt(sil.style.width) + 25 + "px";*/
