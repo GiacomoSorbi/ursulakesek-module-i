@@ -49,11 +49,10 @@ header {
   height: 100px;
   box-shadow: 5px 5px 5px black;
 }
-.htext {
+h1 {
   position: relative;
-  left: 10px;
-  top: 40px;
-  font-size: 1.25em;
+  left: 50px;
+  top: 55px;
   color: rgb(240, 255, 255);
 }
 figcaption{
@@ -112,8 +111,8 @@ figcaption{
   width: 115px;
   height: 210px;
   position: relative;
-  top: 15px;
   left: 16px;
+  top: 15px;
   border: 3px solid rgb(65, 126, 3);
   background-color: rgb(247, 239, 2);
   display: flex;

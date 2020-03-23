@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgb(96, 24, 242)),
+      to(rgb(2, 231, 247))
+    );
+    background: linear-gradient(
+      left top,
+      left bottom,
+      from(rgb(96, 24, 242)),
+      to(rgb(2, 231, 247))
+    );
+    margin: 0;
+    width: 1600px;
+    height: 920px;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgb(96, 24, 242)),
+      to(rgb(37, 185, 239))
+    );
+    background: linear-gradient(
+      left top,
+      left bottom,
+      from(rgb(96, 24, 242)),
+      to(rgb(37, 185, 239))
+    );
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 130px;
+    background-color: rgb(0, 255, 255);
+    margin: 20px;
+  }
+  .logo {
+    background-color: rgba(240, 255, 255, 0.6);
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 5px black;
+  }
+  .htext9 {
+    position: relative;
+    left: 10px;
+    font-size: 1.5em;
+    color: azure;
+  }
+  footer {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgb(96, 24, 242)),
+      to(rgb(37, 185, 239))
+    );
+    background: linear-gradient(
+      left top,
+      left bottom,
+      from(rgb(96, 24, 242)),
+      to(rgb(37, 185, 239))
+    );
+    border: 3px solid black;
+    width: 1600px;
+    height: 100px;
+  }
+  .buttonM,.buttonN,.buttonB2 {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 20px;
+    border-radius: 50px;
+    background: linear-gradient(
+      rgb(255, 0, 225),
+      rgb(250, 250, 3),
+      rgb(255, 0, 225)
+    );
+    box-shadow: 5px 5px 5px black;
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    outline: none;
+  }
+  .choice1,
+  .choice2,
+  .choice3,
+  .choice4,
+  .choice5 {
+    height: 90px;
+    width:400px;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 25px;
+  }
+  .choice1 textarea,
+  .choice2 textarea,
+  .choice3 textarea,
+  .choice4 textarea,
+  .choice5 textarea {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    background-color: rgb(245, 185, 55);
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .mail {
+    height: 40px;
+    width:400px;
+    background-color:black;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    padding:0px 3px 0px 6px;
+    color:white;
+  }
+  .navbuts{
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgb(96, 24, 242)),
+      to(rgb(2, 231, 247))
+    );
+    background: linear-gradient(
+      left top,
+      left bottom,
+      from(rgb(96, 24, 242)),
+      to(rgb(2, 231, 247))
+    );
+    height:110px;
+    width:430px;
+    margin:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .oneb{
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgb(96, 24, 242)),
+      to(rgb(2, 231, 247))
+    );
+    background: linear-gradient(
+      left top,
+      left bottom,
+      from(rgb(96, 24, 242)),
+      to(rgb(2, 231, 247))
+      );
+      width:1650px;
+      height:110px;
+      position: absolute;
+      left:395px;
+      top:688px;
+      }
+  #diver{
+    animation:boomerang 8s infinite;
+  }
+  @keyframes boomerang {
+    0% {
+      transform: translate(0px, 0px);    
+    }
+    100% {
+      transform: translate(1250px, 0px);
+    }
+  }
+  #mermaid{
+    z-index:1;
+    animation: squiggle 10s infinite;
+    animation-timing-function: cubic-bezier(1, 1, 1, 1);
+  }
+  @keyframes squiggle {
+      0%{
+        transform:translate(0,0);
+      }
+      15%{
+        transform:translate(0,-50px) scale(1);
+      }
+  30%{
+        transform:translate(40px,-100px);
+    }
+    45%{
+      transform:translate(0px,-250px) scale(2.5);
+    }
+    60%{
+      transform:translate(50px,-350px) scale(3);
+    }
+    75%{
+      transform:translate(0px,-450px) scale(3.5);
+    }
+    90%{
+      transform:translate(360px,-530px)scale(6.5);
+    }
+      }
+    #baloon{
+      animation:takeoff 15s infinite;
+      }
+      @keyframes takeoff{ 
+       0%{
+        transform:translate(-170px,-100px);
+      }
+      100%{
+        transform:translate(0px,-950px);
+      }
+    }
+  #island{
+    position: relative;
+    top:-80px;
+    left:150px;
+  }
+  footer{
+    width:1500px;
+    height:110px;
+  }
+  
