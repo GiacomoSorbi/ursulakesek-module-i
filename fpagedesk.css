@@ -16,7 +16,7 @@ body {
     from(rgb(96, 24, 242)),
     to(rgb(2, 231, 247))
   );
-  margin: 0 auto;
+  margin: 0;
   width: 1600px;
   height: 1000px;
 }
