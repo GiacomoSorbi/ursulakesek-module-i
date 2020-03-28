@@ -304,7 +304,7 @@ footer {
   font-weight: bold;
 }
 footer {
-  width: 450px;
+  width: 470px;
 }
 footer ul {
   display: flex;
@@ -312,7 +312,7 @@ footer ul {
   justify-content: left;
   list-style: none;
   position: relative;
-  left: 60px;
+  left: 100px;
 }
 footer p {
   position: absolute;
