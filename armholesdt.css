@@ -56,6 +56,12 @@ header {
   font-size: 1.25em;
   color: azure;
 }
+.htext9 {
+  position: relative;
+  left: 10px;
+  font-size: 1em;
+  color: azure;
+}
 .Sleeves {
   height: 400px;
   width: 350px;
