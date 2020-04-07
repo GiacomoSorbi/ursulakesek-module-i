@@ -1,12 +1,12 @@
 .imgslider {
-  display:flex;
+  display: flex;
   flex-direction: row;
   position: absolute;
   left: 40%;
   top: 150px;
   width: 450px;
   height: 630px;
-  border:3px solid black;
+  border: 3px solid black;
   border-radius: 30px;
   background: linear-gradient(rgb(4, 151, 242), rgb(44, 4, 124));
 }
@@ -16,17 +16,17 @@
     rgb(250, 250, 3),
     rgb(255, 0, 225)
   );
-  padding:15px;
+  padding: 15px;
   color: black;
   font-size: 1.5em;
-  border:3px solid black;
-  border-radius:20px;
+  border: 3px solid black;
+  border-radius: 20px;
   position: absolute;
   top: -80px;
   left: 50px;
 }
 .slide {
-  visibility:visible;
+  visibility: visible;
   width: 300px;
   height: 450px;
   margin: 50px 30px;
@@ -39,10 +39,10 @@
     rgb(250, 250, 3),
     rgb(255, 0, 225)
   );
-  width:75px;
-  height:75px;
-  border-radius:20px;
-  border:2px solid black;
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  border: 2px solid black;
   font-size: 2em;
   color: black;
   box-shadow: 5px 5px 5px red;
@@ -59,44 +59,39 @@
 
 .dot {
   cursor: pointer;
-  width:5px;
-  height:5px;
-  padding:5px 10px;
+  width: 5px;
+  height: 5px;
+  padding: 5px 10px;
   margin: 0px 20px;
-  background-color:red;
+  background-color: red;
   border-radius: 50%;
-  border:2px solid black;
+  border: 2px solid black;
   position: relative;
-  left:-370px;
-  top:545px;
+  left: -370px;
+  top: 545px;
   transition: background-color 0.6s ease;
 }
-
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #faf206;
-  box-shadow: 5px 5px 5px red;
-
-
+  box-shadow: 0px 5px 5px 5px red;
 }
-
-@media screen and (max-width:399px) {
-.imgslider{
-  top:1000px;
-  left:0px;
-  width:450px;
-  height:630px;
-  background: linear-gradient(rgb(4, 151, 242), rgb(44, 4, 124));
-}
-.imgslider p{
-  position:absolute;
-  left:35px;
-  top:-100px;
-}
-}
-@media screen and (min-width:401px) and (max-width:1099px){
-
+@media screen and (max-width: 399px) {
   .imgslider {
-    display:none;
+    top: 1000px;
+    left: 0px;
+    width: 450px;
+    height: 630px;
+    background: linear-gradient(rgb(4, 151, 242), rgb(44, 4, 124));
   }
-  
+  .imgslider p {
+    position: absolute;
+    left: 35px;
+    top: -100px;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 1099px) {
+  .imgslider {
+    display: none;
+  }
 }
