@@ -16,7 +16,7 @@ footer {
     to(rgb(96, 24, 242))
   );
   position: relative;
-  left: -50px;
+  left: 0px;
 }
 footer a,
 footer p {
