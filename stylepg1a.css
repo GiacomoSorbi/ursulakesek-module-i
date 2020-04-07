@@ -279,6 +279,7 @@ footer {
   position: relative;
   top: -820px;
   width: 2000px;
+  height:120px;
 }
 #star {
   position: absolute;
