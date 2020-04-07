@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", event => {
+window.addEventListener("DOMContentLoaded", (event) => {
   console.log("DOM fully loaded and parsed");
 });
 
@@ -91,7 +91,6 @@ function replaceImagea() {
 
   animate = setTimeout(replaceImagea, 200);
 }
-
 
 function replaceImageb() {
   arm1c.style.visibility = "visible";

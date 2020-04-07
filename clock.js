@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", event => {
+window.addEventListener("DOMContentLoaded", (event) => {
   console.log("DOM fully loaded and parsed");
 });
 
@@ -29,7 +29,7 @@ function startTime() {
     "September",
     "October",
     "November",
-    "December"
+    "December",
   ];
   let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   let curWeekDay = days[today.getDay()];
@@ -39,7 +39,7 @@ function startTime() {
   let date = curWeekDay + ", " + curDay + " " + curMonth + " " + curYear;
   document.getElementById("date").innerHTML = date;
 
-  let time = setInterval(function() {
+  let time = setInterval(function () {
     startTime();
   }, 500);
 }
