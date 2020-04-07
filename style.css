@@ -58,7 +58,9 @@ h1 {
 figcaption {
   visibility: hidden;
 }
-.row1 {
+.row1,
+.row2,
+.row3 {
   width: 375px;
   height: 210px;
   margin: 10px;
@@ -76,7 +78,15 @@ figcaption {
   display: flex;
   flex-direction: column;
 }
-.silhouettes a {
+.silhouettes a,
+.armholes a,
+.sleeves a,
+.measurements a,
+.choices a,
+.sleeves2 a,
+.necklines a,
+.neckedges a,
+.ne-ribbing a {
   text-decoration: none;
 }
 .silhouettes p {
@@ -88,7 +98,9 @@ figcaption {
   font-weight: bold;
   padding: 4px;
 }
-.button1 {
+.button1,
+.button2,
+.button3 {
   width: 50px;
   height: 50px;
   position: relative;
@@ -107,6 +119,14 @@ figcaption {
   cursor: pointer;
   outline: none;
 }
+.button2 {
+  position: relative;
+  top: 14px;
+}
+.button3 {
+  position: relative;
+  top: 15px;
+}
 .armholes {
   width: 115px;
   height: 210px;
@@ -119,9 +139,6 @@ figcaption {
   flex-direction: column;
   justify-content: space-evenly;
 }
-.armholes a {
-  text-decoration: none;
-}
 .armholes p {
   position: relative;
   top: 10px;
@@ -130,25 +147,6 @@ figcaption {
   font-size: 1.25em;
   font-weight: bold;
   padding: 4px;
-}
-.button2 {
-  position: relative;
-  left: 30px;
-  top: 14px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  background: linear-gradient(
-    rgb(106, 0, 255),
-    rgb(65, 212, 245),
-    rgb(106, 0, 255)
-  );
-  box-shadow: 5px 5px 5px black;
-  font-size: 2.75em;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  outline: none;
 }
 .sleeves {
   width: 115px;
@@ -162,9 +160,6 @@ figcaption {
   flex-direction: column;
   justify-content: space-evenly;
 }
-.sleeves a {
-  text-decoration: none;
-}
 .sleeves p {
   position: relative;
   top: 8px;
@@ -174,27 +169,9 @@ figcaption {
   font-weight: bold;
   padding: 4px;
 }
-.button3 {
-  position: relative;
-  left: 30px;
-  top: 15px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  background: linear-gradient(
-    rgb(106, 0, 255),
-    rgb(65, 212, 245),
-    rgb(106, 0, 255)
-  );
-  box-shadow: 5px 5px 5px black;
-  font-size: 2.75em;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  outline: none;
-  cursor: pointer;
-  outline: none;
-}
-.button4 {
+.button4,
+.button5,
+.button6 {
   position: relative;
   left: 25px;
   top: 12px;
@@ -216,61 +193,14 @@ figcaption {
 .button5 {
   position: relative;
   left: 30px;
-  top: 12px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  background: linear-gradient(
-    rgb(106, 0, 255),
-    rgb(65, 212, 245),
-    rgb(106, 0, 255)
-  );
-  box-shadow: 5px 5px 5px black;
-  font-size: 2.75em;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  outline: none;
 }
 .button6 {
   position: relative;
   left: 30px;
-  top: 12px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  background: linear-gradient(
-    rgb(106, 0, 255),
-    rgb(65, 212, 245),
-    rgb(106, 0, 255)
-  );
-  box-shadow: 5px 5px 5px black;
-  font-size: 2.75em;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  outline: none;
 }
-.button7 {
-  position: relative;
-  left: 30px;
-  top: 12px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  background: linear-gradient(
-    rgb(106, 0, 255),
-    rgb(65, 212, 245),
-    rgb(106, 0, 255)
-  );
-  box-shadow: 5px 5px 5px black;
-  font-size: 2.75em;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  outline: none;
-}
-.button8 {
+.button7,
+.button8,
+.button9 {
   position: relative;
   left: 30px;
   top: 12px;
@@ -291,24 +221,11 @@ figcaption {
 }
 .button9 {
   position: relative;
-  left: 30px;
   top: 11px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  background: linear-gradient(
-    rgb(106, 0, 255),
-    rgb(65, 212, 245),
-    rgb(106, 0, 255)
-  );
-  box-shadow: 5px 5px 5px black;
-  font-size: 2.75em;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  outline: none;
 }
-.icon1 {
+.icon1,
+.icon2,
+.icon3 {
   width: 90px;
   height: 100px;
   position: relative;
@@ -316,28 +233,9 @@ figcaption {
   top: 18px;
   box-shadow: 5px 5px 5px black;
 }
-.icon2 {
-  width: 90px;
-  height: 100px;
-  position: relative;
-  left: 7px;
-  top: 25px;
-  box-shadow: 5px 5px 5px black;
-}
+.icon2,
 .icon3 {
-  width: 90px;
-  height: 100px;
-  position: relative;
-  left: 7px;
   top: 25px;
-  box-shadow: 5px 5px 5px black;
-}
-.row2 {
-  width: 375px;
-  height: 210px;
-  margin: 10px;
-  display: flex;
-  flex-direction: row;
 }
 .measurements {
   width: 115px;
@@ -350,9 +248,6 @@ figcaption {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-.measurements a {
-  text-decoration: none;
 }
 .measurements p {
   position: relative;
@@ -376,9 +271,6 @@ figcaption {
   flex-direction: column;
   justify-content: space-evenly;
 }
-.choices a {
-  text-decoration: none;
-}
 .choices p {
   position: relative;
   top: 12px;
@@ -400,9 +292,6 @@ figcaption {
   flex-direction: column;
   justify-content: space-evenly;
 }
-.sleeves2 a {
-  text-decoration: none;
-}
 .sleeves2 p {
   position: relative;
   top: 12px;
@@ -412,46 +301,11 @@ figcaption {
   font-weight: bold;
   padding: 4px;
 }
-.icon4 {
-  width: 90px;
-  height: 100px;
-  position: relative;
-  left: 7px;
-  top: 22px;
-  box-shadow: 5px 5px 5px black;
-}
-.icon5 {
-  width: 90px;
-  height: 100px;
-  position: relative;
-  left: 7px;
-  top: 22px;
-  box-shadow: 5px 5px 5px black;
-}
-.icon6 {
-  width: 90px;
-  height: 100px;
-  position: relative;
-  left: 7px;
-  top: 22px;
-  box-shadow: 5px 5px 5px black;
-}
-.icon7 {
-  width: 90px;
-  height: 100px;
-  position: relative;
-  left: 7px;
-  top: 22px;
-  box-shadow: 5px 5px 5px black;
-}
-.icon8 {
-  width: 90px;
-  height: 100px;
-  position: relative;
-  left: 7px;
-  top: 22px;
-  box-shadow: 5px 5px 5px black;
-}
+.icon4,
+.icon5,
+.icon6,
+.icon7,
+.icon8,
 .icon9 {
   width: 90px;
   height: 100px;
@@ -459,13 +313,6 @@ figcaption {
   left: 7px;
   top: 22px;
   box-shadow: 5px 5px 5px black;
-}
-.row3 {
-  width: 375px;
-  height: 210px;
-  margin: 10px;
-  display: flex;
-  flex-direction: row;
 }
 .necklines {
   width: 115px;
@@ -478,9 +325,6 @@ figcaption {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-.necklines a {
-  text-decoration: none;
 }
 .necklines p {
   position: relative;
@@ -503,9 +347,6 @@ figcaption {
   flex-direction: column;
   justify-content: space-evenly;
 }
-.neckedges a {
-  text-decoration: none;
-}
 .neckedges p {
   position: relative;
   top: 15px;
@@ -526,9 +367,6 @@ figcaption {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-.ne-ribbing a {
-  text-decoration: none;
 }
 .ne-ribbing p {
   position: relative;
