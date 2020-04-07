@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin:0 auto;
+  margin: 0 auto;
 }
 body {
   background: -webkit-gradient(
@@ -155,7 +155,7 @@ footer {
   text-align: center;
   color: black;
   outline: none;
-  cursor:pointer;
+  cursor: pointer;
 }
 .buttonX,
 .buttonY {

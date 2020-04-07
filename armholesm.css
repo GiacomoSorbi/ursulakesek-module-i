@@ -133,8 +133,12 @@ footer {
   border: 3px solid black;
   height: 100px;
 }
-.buttonA,.buttonB,.buttonC,
-.buttonD,.buttonE,.buttonF {
+.buttonA,
+.buttonB,
+.buttonC,
+.buttonD,
+.buttonE,
+.buttonF {
   width: 70px;
   height: 70px;
   position: relative;
@@ -150,9 +154,10 @@ footer {
   text-align: center;
   color: black;
   outline: none;
-  cursor:pointer;
+  cursor: pointer;
 }
-.buttonX,.buttonY {
+.buttonX,
+.buttonY {
   width: 40px;
   height: 20px;
   position: relative;
@@ -164,16 +169,18 @@ footer {
   color: white;
   font-weight: bold;
   outline: none;
-  cursor:pointer;
+  cursor: pointer;
 }
 .buttonY {
   left: 60px;
   background-color: lightgreen;
   color: black;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.buttonM,.buttonN,.buttonB2 {
+.buttonM,
+.buttonN,
+.buttonB2 {
   width: 80px;
   height: 80px;
   position: relative;
@@ -189,7 +196,7 @@ footer {
   text-align: center;
   color: black;
   outline: none;
-  cursor:pointer
+  cursor: pointer;
 }
 .choice1,
 .choice2,
@@ -242,8 +249,7 @@ footer {
 }
 footer {
   width: 450px;
-  height:120px;
-  
+  height: 120px;
 }
 footer ul {
   display: flex;
