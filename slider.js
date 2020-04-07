@@ -23,7 +23,6 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
   slides[slideIndex - 1].style.display = "block";
-  dot[slideIndex-1].className += "active";
 }
 /*automatic slide show
 let slideIndex = 0;
