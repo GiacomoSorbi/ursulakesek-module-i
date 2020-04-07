@@ -56,22 +56,24 @@
 .arrowright {
   left: -100px;
 }
-@media screen and (max-width:400px) {
-.silslider{
+@media screen and (max-width:399px) {
+.imgslider{
   top:1000px;
   left:0px;
   width:450px;
   height:630px;
   background: linear-gradient(rgb(4, 151, 242), rgb(44, 4, 124));
 }
-.silslider p{
+.imgslider p{
   position:absolute;
   left:35px;
-  top:-70px;
+  top:-100px;
 }
 }
 @media screen and (min-width:401px) and (max-width:1099px){
-.silslider{
-  display:none;
-}
+
+  .imgslider {
+    display:none;
+  }
+  }
 }
