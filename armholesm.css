@@ -16,8 +16,7 @@ body {
     to(rgb(2, 231, 247))
   );
   margin: 0;
-  width: 369px;
-  height: 920px;
+  width: 400px;
 }
 header {
   display: flex;
@@ -62,6 +61,7 @@ header {
   font-size: 1em;
   color: azure;
 }
+
 .Sleeves {
   height: 400px;
   width: 350px;

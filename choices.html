@@ -10,11 +10,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="armholesdt.css" media="screen and (min-width:400px)" />
-    <link rel="stylesheet" href="armholesm.css" media="screen and (max-width:401px)"/>
+    <link rel="stylesheet" href="armholesm.css" media="screen and (max-width:399px)"/>
     <link rel ="stylesheet" href="footer.css"media="screen"/>
-    <link rel="apple-touch-icon" href="Images/uknit.png">
-
-
+    <link rel ="stylesheet" href="slider.css" media="screen">
+    <link rel ="apple-touch-icon" href="Images/uknit.png">
     <link
       rel="icon"
       type="image/gif"
@@ -36,7 +35,34 @@
         </p>
       </div>
     </header>
+    <section class="imgslider">
+      <div class="shifter">
+      <a class="arrowleft" onclick="nextSlide(-1)">❮</a>
+      </div>
+      <div class="slide">
+        <img src="Images/sil11.png"alt="straight-silhouette-armhole-set-in" />
+      </div>
+      <div class="slide">
+        <img src="Images/sil12.png"alt="straight-silhouette-armhole-square-indented" />
+      </div>
+      <div class="slide">
+        <img src="Images/sil13.png"alt="straight-silhouette-armhole-raglan" />
+      </div>
+      <div class="slide">
+        <img src="Images/sil14.png"alt="straight-silhouette-armhole-saddle-shoulder" />
+      </div>
+      <div class="slide">
+        <img src="Images/sil15.png"alt="silhouette-and-armhole-Icelandic-yoke" />
+      </div>
+      <div class="shifter">
+        <a class="arrowright" onclick="nextSlide(1)">❯</a>
+        </div>
+        <div>
+          <p>Some choices - more to be added</p>
+        </div>
+    </section>
     <form action="" method="post">
+
       <div class="choice1">
         <textarea name="silhouettes" for="silhouettes" aria-label="silhouettes"cols="34" rows="4">
         Silhouette:
@@ -108,5 +134,6 @@
     Icons</a><span>
   </p>
     </footer>
+    <script src="slider.js"></script>
   </body>
 </html>

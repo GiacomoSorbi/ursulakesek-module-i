@@ -233,7 +233,7 @@ footer {
   );
   height: 110px;
   width: 430px;
-  margin: 10px;
+  margin: 10px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -255,7 +255,7 @@ footer {
   width: 2000px;
   height: 110px;
   position: absolute;
-  left: 440px;
+  left: 430px;
   top: 695px;
 }
 #diver {
@@ -312,8 +312,4 @@ footer {
   position: relative;
   top: -80px;
   left: 150px;
-}
-footer {
-  width: 2000px;
-  height: 110px;
 }
