@@ -112,22 +112,6 @@ span {
   left: 25px;
 }
 footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgb(96, 24, 242)),
-    to(rgb(2, 231, 247))
-  );
-  background: linear-gradient(
-    left top,
-    left bottom,
-    from(rgb(96, 24, 242)),
-    to(rgb(2, 231, 247))
-  );
   border: 3px solid black;
   width: 2000px;
   height: 100px;

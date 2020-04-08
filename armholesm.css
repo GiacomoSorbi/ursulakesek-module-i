@@ -112,27 +112,6 @@ span {
   position: relative;
   left: 25px;
 }
-
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgb(96, 24, 242)),
-    to(rgb(37, 185, 239))
-  );
-  background: linear-gradient(
-    left top,
-    left bottom,
-    from(rgb(96, 24, 242)),
-    to(rgb(37, 185, 239))
-  );
-  border: 3px solid black;
-  height: 100px;
-}
 .buttonA,
 .buttonB,
 .buttonC,
@@ -175,7 +154,6 @@ footer {
   left: 60px;
   background-color: lightgreen;
   color: black;
-  cursor: pointer;
 }
 
 .buttonM,
@@ -248,9 +226,14 @@ footer {
   justify-content: space-evenly;
 }
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
   width: 450px;
   height: 120px;
 }
+
 footer ul {
   display: flex;
   flex-direction: row;
