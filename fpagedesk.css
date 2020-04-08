@@ -121,7 +121,6 @@ aside {
   color: white;
   z-index: -1;
 }
-footer {
-  width: 2000px;
-  height: 140px;
+footer{
+  width:2500px;
 }

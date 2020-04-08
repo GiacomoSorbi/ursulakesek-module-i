@@ -142,13 +142,6 @@ span {
   position: relative;
   left: 25px;
 }
-
-footer {
-  display: flex;
-  flex-direction: row;
-  width:400px;
-  height: 130px;
-}
 .buttonA,
 .buttonB,
 .buttonC,
@@ -243,7 +236,7 @@ footer {
 
 .clockdate-wrapper {
   position: relative;
-  left: 450px;
+  left: 400px;
   top: -200px;
   background-color: rgb(7, 210, 245);
   padding: 25px;
@@ -282,6 +275,12 @@ footer {
 }
 .timer p {
   font-weight: bold;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  width:400px;
+  height: 140px;
 }
 footer ul {
   display: flex;

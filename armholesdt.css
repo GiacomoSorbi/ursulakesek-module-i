@@ -111,11 +111,6 @@ span {
   position: relative;
   left: 25px;
 }
-footer {
-  border: 3px solid black;
-  width: 2000px;
-  height: 100px;
-}
 .buttonA,
 .buttonB,
 .buttonC,
@@ -296,4 +291,7 @@ footer {
   position: relative;
   top: -80px;
   left: 150px;
+}
+footer{
+  width:2000px;
 }

@@ -79,7 +79,6 @@
     transform: translate(1000px, -10px) rotate(-0.75turn);
   }
 }
-footer {
-  width: 2000px;
-  height: 140px;
+footer{
+  width:2000px;
 }

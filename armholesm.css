@@ -225,25 +225,6 @@ span {
   flex-direction: row;
   justify-content: space-evenly;
 }
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 3px solid black;
-  width: 450px;
-  height: 120px;
-}
-
-footer ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  list-style: none;
-}
-footer p {
-  position: relative;
-  left: -10px;
-}
 #island {
   position: relative;
   top: 20px;
@@ -268,4 +249,7 @@ footer p {
   );
   width: 450px;
   height: 120px;
+}
+footer{
+  width:400px;
 }

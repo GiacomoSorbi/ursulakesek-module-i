@@ -222,7 +222,7 @@ span {
 }
 .clockdate-wrapper {
   position: relative;
-  left: 450px;
+  left: 400px;
   top: -200px;
   background-color: rgb(7, 210, 245);
   padding: 25px;
@@ -279,7 +279,7 @@ footer {
   position: relative;
   top: -820px;
   width: 2000px;
-  height:120px;
+  height:140px;
 }
 #star {
   position: absolute;
