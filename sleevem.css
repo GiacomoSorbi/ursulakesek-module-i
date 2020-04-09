@@ -52,7 +52,7 @@ header {
 .htext {
   position: relative;
   left: 30px;
-  font-size: 1.25em;
+  font-size: 1em;
   color: azure;
 }
 .Sleeves {
@@ -121,7 +121,7 @@ header {
   position: relative;
   left: -590px;
   width: 400px;
-  height: 630px;
+  height: 530px;
   border: 3px solid black;
   border-radius: 30px;
   background: linear-gradient(rgb(4, 151, 242), rgb(44, 4, 124));
@@ -131,12 +131,12 @@ header {
   color: white;
 }
 .slide {
-  position: relative;
-  left: -20px;
   visibility: visible;
   width: 300px;
-  height: 450px;
-  margin: 50px 45px;
+  height: 400px;
+  position: relative;
+  left:0px;
+  margin:30px 60px;
 }
 .dotgroup {
   display: flex;
@@ -144,17 +144,17 @@ header {
   justify-content: space-between;
   position: relative;
   left: 160px;
-  top: -500px;
+  top: -450px;
   width: 50px;
   height: 200px;
 }
 .dot {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
   font-size: 1.75em;
   color: black;
-  padding: 3px 14px;
+  padding: 3px 12px;
   margin: 7px;
   background-color: rgb(235, 60, 8);
   border-radius: 50%;
@@ -171,15 +171,17 @@ header {
   margin: 20px 30px;
 }
 .slideText{
-  width: 300px;
-  height: 100px;
+  width: 325px;
+  height: 90px;
   position: relative;
+  left:-45px;
   top: 10px;
   background: linear-gradient(rgb(4, 151, 242), rgb(44, 4, 124));
-  border-radius: 10px;
-  font-size: 2em;
+  border-radius: 30px;
+  border:3px solid black;
+  font-size: 1.5em;
   font-weight: bold;
-  padding:20px 60px;
+  padding:20px 10px 20px 25px;
   color:white;
 }
 footer{
