@@ -61,10 +61,10 @@ h3 {
   border:3px solid rgb(2, 231, 247);
   width:270px;
   position: relative;
-  top:50px;
+  top:30px;
 }
 aside {
-  height: 370px;
+  height: 320px;
   background-color: black;
   margin: 15px;
   width: 350px;
@@ -74,7 +74,7 @@ aside {
   height: 100px;
   position: relative;
   left: 130px;
-  top:100px;
+  top:60px;
   border-radius: 50px;
   background: linear-gradient(
     rgb(106, 0, 255),
@@ -126,4 +126,6 @@ aside {
 }
 footer{
   width:2500px;
+  position: relative;
+  top:-10px;
 }
