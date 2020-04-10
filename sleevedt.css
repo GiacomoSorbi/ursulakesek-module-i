@@ -17,7 +17,7 @@ body {
     to(rgb(2, 231, 247))
   );
   margin: 0;
-  width: 430px;
+  width: 2000px;
   height: 920px;
 }
 header {
@@ -42,7 +42,7 @@ header {
   height: 130px;
   margin: 10px;
 }
-.logo {
+logo {
   background-color: rgba(240, 255, 255, 0.6);
   margin: 10px;
   width: 100px;
@@ -90,6 +90,7 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
   position: relative;
+  top:-450px;
 }
 .buttonM,
 .buttonN,
@@ -124,6 +125,9 @@ header {
   border: 3px solid black;
   border-radius: 30px;
   background: linear-gradient(rgb(4, 151, 242), rgb(44, 4, 124));
+  position: relative;
+  left:-780px;
+  top:-450px;
 }
 .imgslider p {
   font-size: 3em;
@@ -157,7 +161,7 @@ header {
   border: 2px solid black;
   position: relative;
   transition: background-color 0.6s ease;
-  outline:none;
+  outline: none;
 }
 .dot:hover {
   background-color: #faf206;
@@ -171,7 +175,7 @@ header {
   width: 320px;
   height: 80px;
   position: relative;
-  left:-20px;
+  left: -20px;
   top: 40px;
   background-color: black;
   border-radius: 30px;
@@ -182,44 +186,46 @@ header {
   color: white;
 }
 footer {
-  width: 430px;
+  width: 2000px;
   height: 80px;
   position: relative;
-  top:-10px;
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgb(2, 231, 247)),
-      to(rgb(96, 24, 242))
-    );
-    background: linear-gradient(
-      left top,
-      left bottom,
-      from(rgb(2, 231, 247)),
-      to(rgb(96, 24, 242))
-    );
-  }
-  footer a,
-  footer p {
-    color: white;
-    text-align: center;
-  }
-  footer ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-  }
-  footer li {
-    margin: 10px 35px 0px 10px;
-  }
-  .icons a {
-    background-color: rgba(249, 6, 119, 1);
-    padding: 3px;
-    text-decoration: none;
-  }
-  .squind{
-    display:none;
-  }
-
+  top: -460px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(2, 231, 247)),
+    to(rgb(96, 24, 242))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(2, 231, 247)),
+    to(rgb(96, 24, 242))
+  );
+}
+footer a,
+footer p {
+  color: white;
+  text-align: center;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+footer li {
+  margin: 10px 35px 0px 10px;
+}
+.icons a {
+  background-color: rgba(249, 6, 119, 1);
+  padding: 3px;
+  text-decoration: none;
+}
+.squind {
+  display:flex;
+  position: relative;
+  left:-300px;
+  top:-110px;
+}

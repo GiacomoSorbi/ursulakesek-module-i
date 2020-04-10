@@ -56,22 +56,25 @@ main {
 }
 h3 {
   color: white;
-  margin: 15px;
-  padding: 5px 25px;
-  background-color: black;
+  padding: 25px 30px;
+  background-color: rgb(96, 24, 242);
+  border:3px solid rgb(2, 231, 247);
+  width:270px;
+  position: relative;
+  top:50px;
 }
 aside {
-  height: 190px;
+  height: 370px;
   background-color: black;
   margin: 15px;
   width: 350px;
 }
 .go {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   position: relative;
-  left: 250px;
-  top: -40px;
+  left: 130px;
+  top:100px;
   border-radius: 50px;
   background: linear-gradient(
     rgb(106, 0, 255),
@@ -89,7 +92,7 @@ aside {
   visibility: visible;
   position: absolute;
   left: 450px;
-  top: 280px;
+  top: 300px;
   animation: boomerangspin 7s ease-in 1s infinite;
   animation-direction: alternate;
 }

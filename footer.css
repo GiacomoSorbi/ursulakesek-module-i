@@ -15,7 +15,7 @@ footer {
     from(rgb(2, 231, 247)),
     to(rgb(96, 24, 242))
   );
-  height: 140px;
+  height: 100px;
 }
 footer a,
 footer p {

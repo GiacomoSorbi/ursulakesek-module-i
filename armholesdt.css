@@ -212,7 +212,7 @@ span {
   );
   height: 110px;
   width: 430px;
-  margin: 10px 0px;
+  margin: 25px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -235,7 +235,7 @@ span {
   height: 110px;
   position: absolute;
   left: 430px;
-  top: 695px;
+  top: 710px;
 }
 #diver {
   animation: boomerang 8s infinite;
@@ -294,4 +294,6 @@ span {
 }
 footer{
   width:2000px;
+  position: relative;
+  top:-20px;
 }
