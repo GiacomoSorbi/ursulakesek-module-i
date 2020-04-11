@@ -90,7 +90,7 @@ logo {
   flex-direction: row;
   justify-content: space-evenly;
   position: relative;
-  top:-450px;
+  top:-800px;
 }
 .buttonM,
 .buttonN,
@@ -127,7 +127,7 @@ logo {
   background: linear-gradient(rgb(4, 151, 242), rgb(44, 4, 124));
   position: relative;
   left:-780px;
-  top:-450px;
+  top:-800px;
 }
 .imgslider p {
   font-size: 3em;
@@ -189,7 +189,7 @@ footer {
   width: 2000px;
   height: 80px;
   position: relative;
-  top: -460px;
+  top: -810px;
   background: -webkit-gradient(
     linear,
     left top,
@@ -228,14 +228,34 @@ footer li {
   position: relative;
   left:-300px;
   top:-110px;
-  animation: boomerang 10s infinite;
+  animation:flight 10s infinite;
 }
-@keyframes boomerang {
+@keyframes flight {
   0% {
     transform: translate(0px, 0px);
   }
   100% {
     transform: translate(1350px, 0px);
+  }
+}
+.rag{
+  display:flex;
+  position: relative;
+  left:-300px;
+  top:-50px;
+  z-index:1;
+  animation: flight1 8s infinite;
+}
+@keyframes flight1 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50%{
+    transform:translate(0px,-250px);
+    transform:rotate(-45deg);
+  }
+  100% {
+    transform: translate(1650px,-750px);
   }
 }
 
