@@ -42,7 +42,7 @@ header {
   height: 130px;
   margin: 10px;
 }
-logo {
+.logo {
   background-color: rgba(240, 255, 255, 0.6);
   margin: 10px;
   width: 100px;
