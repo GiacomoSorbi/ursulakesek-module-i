@@ -96,8 +96,6 @@ header {
   width: 268px;
   height: 520px;
   background-color: rgb(80, 2, 119);
-  position: relative;
-  top:40px;
 }
 
 span {
@@ -270,7 +268,7 @@ span {
     to(rgb(96, 24, 242))
   );
   position: relative;
-  left: 1340px;
+  left: 1350px;
   top: -870px;
   width: 100px;
   height: 900px;
