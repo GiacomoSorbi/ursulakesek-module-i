@@ -33,7 +33,7 @@
     transform: translate(400px, 0px) scale(2, 2) rotate(-0.25turn);
   }
   75% {
-    transform: translate(500px, -500px) scale(5, 5);
+    transform: translate(500px, -400px) scale(5,5);
   }
   100% {
     transform: translate(700px, -10px) rotate(0.75turn);
@@ -54,7 +54,7 @@
     transform: translate(400px, 0px) scale(2.5, 2.5) rotate(-0.25turn);
   }
   75% {
-    transform: translate(500px, -500px) scale(7, 7);
+    transform: translate(500px, -450px) scale(7, 7);
   }
   100% {
     transform: translate(700px, -10px) rotate(0.5turn);
@@ -73,7 +73,7 @@
     transform: translate(750px, 0px) scale(1.75, 1.75) rotate(0.25turn);
   }
   65% {
-    transform: translate(0px, -600px) scale(5, 5);
+    transform: translate(0px, -550px) scale(5, 5);
   }
   100% {
     transform: translate(1000px, -10px) rotate(-0.75turn);

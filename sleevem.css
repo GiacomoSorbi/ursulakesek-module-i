@@ -168,13 +168,12 @@ header {
   margin: 20px 30px;
 }
 .slideText {
-  width: 320px;
+  width: 380px;
   height: 80px;
   position: relative;
-  left:-20px;
-  top: 40px;
+  left:-53px;
+  top: 45px;
   background-color: black;
-  border-radius: 30px;
   border: 3px solid rgb(6, 173, 240);
   font-size: 1.5em;
   font-weight: bold;
@@ -223,5 +222,8 @@ footer {
     display:none;
   }
 .rag{
+  display:none;
+}
+.sasrag{
   display:none;
 }
