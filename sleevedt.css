@@ -274,7 +274,7 @@ footer li {
     transform:rotate(45deg);
   }
   100% {
-    transform: translate(-200px,-700px)scale(2.5,2.5);
+    transform: translate(-200px,-700px)scale(1.5,1.5);
   }
 }
 
