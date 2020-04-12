@@ -81,7 +81,7 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   width: 120px;
-  height: 520px;
+  height: 580px;
 }
 .silbuts a {
   text-decoration: none;
@@ -96,6 +96,8 @@ header {
   width: 268px;
   height: 520px;
   background-color: rgb(80, 2, 119);
+  position: relative;
+  top:40px;
 }
 
 span {
@@ -124,7 +126,6 @@ span {
   border-radius: 10px;
   width: 400px;
   height: 130px;
-  background-color: rgb(0, 255, 255);
   margin: 10px;
 }
 .buttonA,
@@ -270,14 +271,14 @@ span {
   );
   position: relative;
   left: 1340px;
-  top: -800px;
+  top: -870px;
   width: 100px;
-  height: 800px;
+  height: 900px;
 }
 
 footer {
   position: relative;
-  top: -820px;
+  top: -900px;
   width: 2000px;
   height:140px;
 }

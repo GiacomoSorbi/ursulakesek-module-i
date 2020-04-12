@@ -101,6 +101,13 @@ header {
   font-size: 1em;
   color: azure;
 }
+.cards{
+  width:370px;
+  height:700px;
+  background-color: gold;
+  border:3px solid black;
+  z-index:1;
+}
 .silshapes {
   width: 369px;
   display: flex;

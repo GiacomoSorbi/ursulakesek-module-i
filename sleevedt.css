@@ -261,20 +261,19 @@ footer li {
   display:flex;
   position: relative;
   left:100px;
-  top:-90px;
-  z-index:1;
-  animation: flight2 11s infinite;
+  top:-200px;
+  z-index:-1;
+  animation: flight2 15s infinite;
 }
 @keyframes flight2 {
   0% {
-    transform: translate(1200px, 0px);
+    transform: translate(100px, -150px);
   }
-  40%{
-    transform:translate(300px,-250px);
-    transform:rotate(45deg);
+  50%{
+    transform:translate(50px,-450px);
   }
   100% {
-    transform: translate(-200px,-700px)scale(1.5,1.5);
+    transform: translate(-100px,-1200px)scale(1.5,1.5);
   }
 }
 
