@@ -174,18 +174,34 @@ span {
 .choice1,
 .choice2,
 .choice3,
-.choice4,
-.choice5 {
+.choice4
+ {
   height: 90px;
   width: 400px;
   background-color: black;
-  margin-top: 5px;
+  margin-top: 25px;
   margin-left: 25px;
+}
+.choice5{
+  height: 100px;
+  width: 400px;
+  background-color: black;
+  margin-left: 25px;
+  margin-top: 15px;
+
 }
 .choice1 textarea,
 .choice2 textarea,
 .choice3 textarea,
-.choice4 textarea,
+.choice4 textarea
+{
+  position: relative;
+  top: 5px;
+  left: 5px;
+  background-color: rgb(245, 185, 55);
+  font-size: 16px;
+  font-weight: bold;
+}
 .choice5 textarea {
   position: relative;
   top: 5px;
@@ -194,15 +210,18 @@ span {
   font-size: 16px;
   font-weight: bold;
 }
+
 .mail {
-  height: 40px;
+  height: 60px;
   width: 400px;
   background-color: black;
   margin-left: 25px;
+  margin-top: 20px;
   padding: 0px 3px 0px 6px;
   color: white;
+  font-size: 1.5em;
 }
-.navbuts {
+.navbuts,.navbutsc{
   background: -webkit-gradient(
     linear,
     left top,
@@ -224,6 +243,9 @@ span {
   justify-content: space-evenly;
   position: relative;
   top:90px;
+}
+.navbutsc{
+  top:-20px;
 }
 .oneb {
   background: -webkit-gradient(
@@ -299,6 +321,11 @@ span {
   position: relative;
   top: -80px;
   left: 150px;
+}
+.choices{
+  width:2000px;
+  position: relative;
+  top:-40px;
 }
 footer{
   width:2000px;
