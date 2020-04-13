@@ -227,7 +227,7 @@ footer li {
   position: relative;
   left: -300px;
   top: -65px;
-  animation: flight 5s infinite;
+  animation: flight 15s infinite;
   animation-timing-function: cubic-bezier(0.4, -0.3, 0.5, 0);
 }
 @keyframes flight {
