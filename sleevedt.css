@@ -251,7 +251,7 @@ footer li {
   left: -300px;
   top: -50px;
   z-index: -1;
-  animation: flight1 8s infinite;
+  animation: flight1 12s infinite;
   animation-timing-function: cubic-bezier(0.1, 0.4, 0.5, 1);
 }
 @keyframes flight1 {
@@ -272,16 +272,16 @@ footer li {
   left: 100px;
   top: -200px;
   z-index: -1;
-  animation: flight2 15s infinite;
+  animation: flight2 10s  infinite alternate;
 }
 @keyframes flight2 {
   0% {
-    transform: translate(100px, -150px);
+    transform: translate(-120px, -50px);
   }
-  50% {
-    transform: translate(150px, -450px);
+  25% {
+    transform: translate(150px, -350px);
   }
   100% {
-    transform: translate(160px, -1200px) scale(1.5, 1.5);
+    transform: translate(190px, -1200px) scale(2, 2);
   }
 }
