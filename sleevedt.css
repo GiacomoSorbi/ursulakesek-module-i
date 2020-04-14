@@ -232,17 +232,17 @@ footer li {
 }
 @keyframes flight {
   0% {
-    transform: translate(-1000px, 80px);
+    transform: translate(-1000px, 90px);
   }
   25% {
     transform: rotate(25deg);
-    transform: translate(50px, 40px);
+    transform: translate(30px, 50px);
   }
   35% {
     transform: rotate(60deg);
   }
   100% {
-    transform: translate(1350px, 350px);
+    transform: translate(1350px, 450px);
   }
 }
 .rag {
@@ -256,10 +256,10 @@ footer li {
 }
 @keyframes flight1 {
   0% {
-    transform: translate(0px, 0px);
+    transform: translate(50px, 0px);
   }
   30% {
-    transform: translate(0px, -250px);
+    transform: translate(80px, -250px);
     transform: rotate(-45deg);
   }
   100% {
@@ -279,9 +279,9 @@ footer li {
     transform: translate(100px, -150px);
   }
   50% {
-    transform: translate(50px, -450px);
+    transform: translate(150px, -450px);
   }
   100% {
-    transform: translate(-100px, -1200px) scale(1.5, 1.5);
+    transform: translate(160px, -1200px) scale(1.5, 1.5);
   }
 }
