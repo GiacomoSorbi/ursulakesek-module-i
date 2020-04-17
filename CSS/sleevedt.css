@@ -90,7 +90,7 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
   position: relative;
-  top: -1550px;
+  top: -1010px;
 }
 .buttonM,
 .buttonN,
@@ -127,7 +127,7 @@ header {
   background: linear-gradient(rgb(4, 151, 242), rgb(44, 4, 124));
   position: relative;
   left: -780px;
-  top: -1550px;
+  top: -1010px;
 }
 .imgslider p {
   font-size: 3em;
@@ -203,7 +203,7 @@ footer {
   width: 2000px;
   height: 80px;
   position: relative;
-  top: -1550px;
+  top: -1000px;
   background: -webkit-gradient(
     linear,
     left top,
