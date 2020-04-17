@@ -242,19 +242,21 @@
     position: relative;
     left: -300px;
     top: -65px;
-    animation: flight 15s infinite;
-    animation-timing-function: cubic-bezier(0.4, -0.3, 0.5, 0);
+    animation: flight 12s infinite;
+    animation-timing-function: cubic-bezier(0.4, 0.3, 0.5, 0);
   }
   @keyframes flight {
     0% {
       transform: translate(-1000px, 90px);
     }
     25% {
+      transform: translate(250px, 150px);
       transform: rotate(25deg);
-      transform: translate(30px, 50px);
+
     }
     35% {
-      transform: rotate(60deg);
+      transform: translate(550px, 350px);
+      transform: rotate(90deg);
     }
     100% {
       transform: translate(1350px, 450px);
@@ -287,7 +289,7 @@
     left: 100px;
     top: -200px;
     z-index: -1;
-    animation: flight2 10s  infinite alternate;
+    animation: flight2 12s  infinite alternate;
   }
   @keyframes flight2 {
     0% {
@@ -306,11 +308,11 @@
     left: 100px;
     top: -200px;
     z-index: -1;
-    animation: flight3 10s  infinite alternate;
+    animation: flight3 12s  infinite alternate;
   }
   @keyframes flight3 {
     0% {
-      transform: translate(-200px, -650px);
+      transform: translate(-450px, -650px);
     }
     100% {
       transform: translate(1200px, -650px);
