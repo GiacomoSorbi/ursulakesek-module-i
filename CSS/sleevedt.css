@@ -90,7 +90,7 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
   position: relative;
-  top: -1000px;
+  top: -1550px;
 }
 .buttonM,
 .buttonN,
@@ -127,7 +127,7 @@ header {
   background: linear-gradient(rgb(4, 151, 242), rgb(44, 4, 124));
   position: relative;
   left: -780px;
-  top: -1000px;
+  top: -1550px;
 }
 .imgslider p {
   font-size: 3em;
@@ -203,7 +203,7 @@ footer {
   width: 2000px;
   height: 80px;
   position: relative;
-  top: -1010px;
+  top: -1550px;
   background: -webkit-gradient(
     linear,
     left top,
@@ -300,3 +300,24 @@ footer li {
     transform: translate(190px, -1200px) scale(2, 2);
   }
 }
+.iyggt{
+  display: flex;
+  position: relative;
+  left: 100px;
+  top: -200px;
+  z-index: -1;
+  animation: flight3 10s  infinite;
+}
+@keyframes flight3 {
+  0% {
+    transform: translate(-100px, -50px);
+  }
+  25% {
+    transform: translate(150px, -650px);
+    transform: rotate(135deg);
+  }
+  100% {
+    transform: translate(190px, -900px);
+  }
+}
+  
