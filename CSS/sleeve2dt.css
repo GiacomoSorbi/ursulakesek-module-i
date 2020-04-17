@@ -306,18 +306,14 @@
     left: 100px;
     top: -200px;
     z-index: -1;
-    animation: flight3 10s  infinite;
+    animation: flight3 10s  infinite alternate;
   }
   @keyframes flight3 {
     0% {
-      transform: translate(-100px, -50px);
-    }
-    25% {
-      transform: translate(150px, -650px);
-      transform: rotate(135deg);
+      transform: translate(-200px, -650px);
     }
     100% {
-      transform: translate(190px, -900px);
+      transform: translate(1200px, -650px);
     }
   }
     
