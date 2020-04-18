@@ -28,7 +28,7 @@ body {
   text-align: center;
   border: 2px solid black;
   border-radius: 20px;
-  margin: 20px 7.5px;
+  margin: 20px;
 }
 #clock {
   background-color: rgb(240, 10, 10);
@@ -65,40 +65,47 @@ body {
   box-shadow: 5px 5px 5px black;
   -webkit-appearance: none;
 }
-aside{
-  display:flex;
+aside {
+  display: flex;
   flex-direction: row;
-  width:256px;
-  height:384px;
+  width: 256px;
+  height: 384px;
   position: relative;
-  top:-250px;
-  left:501px;
-  border:3px solid pink;
-  margin:10px;
+  top: -250px;
+  left: 501px;
+  border: 3px solid pink;
+  margin: 10px;
 }
-.jumper2{
-  top:-645px;
-  left:799px;
+.jumper2 {
+  top: -645px;
+  left: 799px;
 }
-.jumper3{
-  top:-1039px;
-  left:1099px;
+.jumper3 {
+  top: -1039px;
+  left: 1099px;
 }
-.jumper4{
-  top:-1435px;
-  left:1397px;
+.jumper4 {
+  top: -1435px;
+  left: 1397px;
 }
-.jumper5{
-  top:-1395px;
-  left:500px;
-}.jumper6{
-  top:-1790px;
-  left:798px;
+.jumper5 {
+  top: -1395px;
+  left: 500px;
 }
-.jumper7{
-  top:-2185px;
-  left:1099px;
-}.jumper8{
-  top:-2580px;
-  left:1397px;
+.jumper6 {
+  top: -1790px;
+  left: 798px;
+}
+.jumper7 {
+  top: -2185px;
+  left: 1099px;
+}
+.jumper8 {
+  top: -2580px;
+  left: 1397px;
+}
+@media screen and (max-width: 399px) {
+  aside {
+    display: none;
+  }
 }
