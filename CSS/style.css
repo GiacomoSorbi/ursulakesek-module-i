@@ -78,15 +78,7 @@ figcaption {
   display: flex;
   flex-direction: column;
 }
-.silhouettes a,
-.armholes a,
-.sleeves a,
-.measurements a,
-.choices a,
-.sleeves2 a,
-.necklines a,
-.neckedges a,
-.ne-ribbing a {
+ a{
   text-decoration: none;
 }
 .silhouettes p {
