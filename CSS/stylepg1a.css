@@ -203,12 +203,12 @@ span {
   background-image: url("clock70x70-1.png");
   color: white;
   font-size: 1em;
-  animation: boomerang 5s infinite;
+  animation: bunjy 5s infinite;
   animation-direction: alternate;
 }
-@keyframes boomerang {
+@keyframes bunjy {
   0% {
-    transform: translate(0, 0);
+    transform: translate(0px, 0px);
   }
   100% {
     transform: translate(0px, 650px);

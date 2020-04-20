@@ -214,15 +214,15 @@ span {
   border-radius: 50px;
   position: relative;
   left: 20px;
-  background-image:url("clock70x70-1.png");
+  background-image: url("clock70x70-1.png");
   color: white;
   font-size: 1em;
-  animation: boomerang 10s infinite;
+  animation: bunjy 10s infinite;
   animation-direction: alternate;
 }
-@keyframes boomerang {
+@keyframes bunjy {
   0% {
-    transform: translate(0, 0);
+    transform: translate(0px, 0px);
   }
   100% {
     transform: translate(400px, -5px);
@@ -278,7 +278,7 @@ span {
 footer {
   display: flex;
   flex-direction: row;
-  width:400px;
+  width: 400px;
   height: 140px;
 }
 footer ul {
