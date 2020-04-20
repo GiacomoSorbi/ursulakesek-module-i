@@ -95,7 +95,7 @@ header {
 }
 .navbuts1 {
   position: relative;
-  top: -1300px;
+  top: -1325px;
 }
 .buttonM,
 .buttonN,
@@ -154,7 +154,7 @@ header {
   visibility: visible;
   width: 300px;
   height: 400px;
-  margin: 30px 45px 35px 45px;
+  margin: 40px 45px 35px 45px;
 }
 .dotgroup {
   display: flex;
@@ -266,7 +266,7 @@ footer {
 }
 .f1 {
   position: relative;
-  top: -1315px;
+  top: -1340px;
 }
 footer a,
 footer p {
