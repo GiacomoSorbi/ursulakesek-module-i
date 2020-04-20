@@ -14,9 +14,9 @@
   );
   width: 2000px;
   height: 150px;
-  z-index:-1;
+  z-index: -1;
   position: absolute;
-  left:0px;
+  left: 0px;
   top: 755px;
 }
 .seahorse {
@@ -34,7 +34,7 @@
     transform: translate(700px, 0px) scale(2, 2) rotate(-0.25turn);
   }
   75% {
-    transform: translate(900px, -400px) scale(5,5);
+    transform: translate(900px, -400px) scale(5, 5);
   }
   100% {
     transform: translate(1200px, -10px) rotate(0.75turn);
@@ -80,8 +80,8 @@
     transform: translate(1300px, -10px) rotate(-0.75turn);
   }
 }
-footer{
-  width:2000px;
+footer {
+  width: 2000px;
   position: relative;
-  top:100px;
+  top: 100px;
 }

@@ -58,13 +58,13 @@ header {
 .htext9 {
   position: relative;
   left: 10px;
-  top:-10px;
+  top: -10px;
   font-size: 1em;
   color: azure;
 }
-h3{
+h3 {
   position: relative;
-  top:-20px;
+  top: -20px;
 }
 
 .Sleeves {
@@ -210,7 +210,8 @@ span {
   padding: 0px 3px 0px 6px;
   color: white;
 }
-.navbuts,.navbutsc {
+.navbuts,
+.navbutsc {
   background: -webkit-gradient(
     linear,
     left top,
@@ -255,6 +256,6 @@ span {
   width: 450px;
   height: 120px;
 }
-footer{
-  width:450px;
+footer {
+  width: 450px;
 }

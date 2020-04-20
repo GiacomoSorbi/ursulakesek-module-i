@@ -78,7 +78,7 @@ figcaption {
   display: flex;
   flex-direction: column;
 }
- a{
+a {
   text-decoration: none;
 }
 .silhouettes p {
@@ -382,6 +382,6 @@ figcaption {
   position: relative;
   left: -20px;
 }
-footer{
-  width:400px;
+footer {
+  width: 400px;
 }

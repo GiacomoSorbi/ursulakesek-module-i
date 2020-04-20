@@ -69,7 +69,8 @@ header {
   background-color: rgb(38, 75, 238);
   color: white;
 }
-.navbuts,.navbuts1 {
+.navbuts,
+.navbuts1 {
   background: -webkit-gradient(
     linear,
     left top,
@@ -92,7 +93,7 @@ header {
   position: relative;
   top: -1550px;
 }
-.navbuts1{
+.navbuts1 {
   position: relative;
   top: -1300px;
 }
@@ -133,7 +134,7 @@ header {
   left: -780px;
   top: -1550px;
 }
-.imgslider1{
+.imgslider1 {
   display: flex;
   flex-direction: column;
   width: 400px;
@@ -170,8 +171,8 @@ header {
   flex-direction: row;
   justify-content: space-around;
   position: relative;
-  top:40px;
-  left:10px;
+  top: 40px;
+  left: 10px;
   width: 50px;
   height: 200px;
 }
@@ -244,7 +245,7 @@ footer {
     to(rgb(96, 24, 242))
   );
 }
-.f1{
+.f1 {
   position: relative;
   top: -1315px;
 }
