@@ -7,13 +7,20 @@
       name="description"
       content="design,jumpers,knitting,silhouettes,sleeves"
     />
-
     <link
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="CSS/armholesdt.css" media="screen" />
-    <link rel="stylesheet" href="CSS/footer.css" media="screen" />
+    <link
+      rel="stylesheet"
+      href="CSS/sleeve2m.css"
+      media="screen and (max-width:430px)"
+    />
+    <link
+      rel="stylesheet"
+      href="CSS/sleeve2dt.css"
+      media="screen and (min-width:431px)"
+    />
     <link
       rel="icon"
       type="image/gif"
@@ -21,8 +28,7 @@
       href="Images/U.Knit32x32.gif"
     />
     <link rel="apple-touch-icon" href="Images/uknit.png" />
-
-    <title>Sleeves</title>
+    <title>Neck Edges</title>
   </head>
   <body>
     <header>
@@ -30,18 +36,69 @@
         <img src="Images/U.Knit1.jpg" alt="" />
       </div>
       <div class="htext">
-        <h1>6</h1>
+        <h1>Neck Edge Styles</h1>
+        <p>Check out 1-6</p>
       </div>
     </header>
-    <section class="Sleeves">
-      <p>PAGE NOT BUILT YET</p>
+    <section class="sleebod">
+      <div class="squind">
+        <img
+          src="Images/neckline round no bg.png"
+          alt="round neckline no background"
+        />
+      </div>
+      <div class="rag">
+        <img
+          src="Images/Neckline square 2.png"
+          alt="square neckline with corona viruses"
+        />
+      </div>
+      <div class="sasrag">
+        <img src="Images/Neckline slit no bg.png" alt="slit neckline with no" />
+      </div>
     </section>
-    <div class="navbuts">
+    <section class="imgslider1">
+      <p></p>
+      <p></p>
+      <div class="slide">
+        <img src="Images/neplaink1p1.png" alt="neck edge style k1 p1 rib" />
+      </div>
+      <div class="slide">
+        <img
+          src="Images/neckline edge mock turtle.png"
+          alt="neck edge syle mock turtle neck"
+        />
+      </div>
+      <div class="slide">
+        <img src="Images/nepoloneck3.png" alt="neck edge style polo" />
+      </div>
+      <div class="slide">
+        <img
+          src="Images/johnnycollar.png"
+          alt="neck edge style johnny collar"
+        />
+      </div>
+      <div class="slide">
+        <img src="Images/split ribbed.png" alt="neck edge style split ribbed" />
+      </div>
+      <div class="slide">
+        <img src="Images/lacecollar.png" alt="neck edge style lace collar" />
+      </div>
+      <div class="dotgroup3">
+        <button class="dot3" onclick="currentSlide(1)">1</button>
+        <button class="dot3" onclick="currentSlide(2)">2</button>
+        <button class="dot3" onclick="currentSlide(3)">3</button>
+        <button class="dot3" onclick="currentSlide(4)">4</button>
+        <button class="dot3" onclick="currentSlide(5)">5</button>
+        <button class="dot3" onclick="currentSlide(6)">6</button>
+      </div>
+    </section>
+    <div class="navbuts1">
       <a href="index5.html"> <button class="buttonB2">Back</button></a>
       <a href="index.html"> <button class="buttonM">Main</button></a>
       <a href="index7.html"> <button class="buttonN">Next</button></a>
     </div>
-    <footer>
+    <footer class="f1">
       <ul>
         <li>
           <a href="" target="" rel="noreferrer">
@@ -68,7 +125,11 @@
             Icons</a
           ></span
         >
+        <span
+          >corona virus image credits Scientific Animations CC by SA 4.0 License
+        </span>
       </p>
     </footer>
+    <script src="JS/slider.js"></script>
   </body>
 </html>
