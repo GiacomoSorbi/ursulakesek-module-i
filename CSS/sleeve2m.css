@@ -309,13 +309,13 @@ footer li {
   padding: 3px;
   text-decoration: none;
 }
-.squind {
+.squind,.squind1 {
   display: none;
 }
-.rag {
+.rag,.rag1 {
   display: none;
 }
-.sasrag {
+.sasrag,.sasrag1 {
   display: none;
 }
 .iyggt {
