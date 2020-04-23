@@ -36,7 +36,7 @@ header {
   );
   border: 3px solid black;
   border-radius: 10px;
-  width: 375px;
+  width: 390px;
   height: 130px;
   background-color: rgb(0, 255, 255);
   margin: 10px;
@@ -211,7 +211,7 @@ span {
   color: white;
 }
 .navbuts,
-.navbutsc {
+.navbutsc,.navbutsM {
   background: -webkit-gradient(
     linear,
     left top,
@@ -230,6 +230,11 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+.navbutsM{
+  position: relative;
+  top:-490px;
+
 }
 #island {
   position: relative;
@@ -256,6 +261,51 @@ span {
   width: 450px;
   height: 120px;
 }
+.measurements{
+  border:5px solid greenyellow;
+  width:390px;
+  height:1200px;
+  position: relative;
+  left:20px;
+  padding:25px;
+}
+.sizes{
+  display:block;
+  position: relative;
+  left:50px;
+  top:-480px;
+}
+.sizes1{
+visibility:visible;
+}
+
+.chest,.waist,.hip,.armwrist{
+  display:flex;
+  flex-direction: column;
+  border:3px solid pink;
+  padding:20px 30px 15px; 
+}
+.measurements h3{
+  font-size: 1.5em;
+  color:white;
+}
+.measurements p{
+  font-size: 1.5em;
+  color:white;
+}
+.measurements h2{
+  color:greenyellow;
+}
+input{
+  font-size:1.5em;
+  margin:5px 10px;
+  padding:
+    10px 10px;
+}
 footer {
   width: 450px;
+}
+.f2{
+  position: relative;
+  top:-515px;
 }

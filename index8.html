@@ -13,6 +13,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="CSS/armholesdt.css" media="screen" />
+    <link
+      rel="stylesheet"
+      href="CSS/armholesm.css"
+      media="screen and (max-width:399px)"
+    />
     <link rel="stylesheet" href="CSS/footer.css" media="screen" />
     <link
       rel="icon"
@@ -22,7 +27,7 @@
     />
     <link rel="apple-touch-icon" href="Images/uknit.png" />
 
-    <title>Sleeves</title>
+    <title>Measurements</title>
   </head>
   <body>
     <header>
@@ -30,18 +35,110 @@
         <img src="Images/U.Knit1.jpg" alt="" />
       </div>
       <div class="htext">
-        <h1>8</h1>
+        <h2>Measurements</h2>
       </div>
     </header>
-    <section class="Sleeves">
-      <p>PAGE NOT BUILT YET</p>
-    </section>
-    <div class="navbuts">
+    <form action="" method="post">
+      <section class="measurements">
+        <h3>Enter your measurements:</h3>
+        <p>Bust/Chest Measurement</p>
+        <div class="chest">
+          <p>in inches</p>
+          <input
+            type="number"
+            name="bust/chest"
+            placeholder="inches"
+            step="1"
+            aria-label="bust or chest measurement in inches"
+          />
+
+          <p>in centimetres</p>
+          <input
+            type="number"
+            name="bust/chest"
+            placeholder="centimetres"
+            step="0.5"
+            aria-label="bust or chest measurement in centimetres"
+          />
+        </div>
+        <p>Waist Measurement</p>
+        <div class="waist">
+          <p>in inches</p>
+          <input
+            type="number"
+            name="waist"
+            placeholder="inches"
+            step="1"
+            aria-label="waist measurement in inches"
+          />
+
+          <p>in centimetres</p>
+          <input
+            type="number"
+            name="waist"
+            placeholder="centimetres"
+            step="0.5"
+            aria-label="waist measurement in centimetres"
+          />
+        </div>
+        <p>Hip Measurement</p>
+        <div class="hip">
+          <p>in inches</p>
+          <input
+            type="number"
+            name="hip"
+            placeholder="inches"
+            step="1"
+            aria-label="hip measurement in inches"
+          />
+
+          <p>in centimetres</p>
+          <input
+            type="number"
+            name="hip"
+            placeholder="centimetres"
+            step="0.5"
+            aria-label="hip measurement in centimetres"
+          />
+        </div>
+        <p>Armlength(from underarm to wrist)</p>
+        <div class="armwrist">
+          <p>in inches</p>
+          <input
+            type="number"
+            name="armlength"
+            placeholder="inches"
+            step="1"
+            aria-label="armlength measurement in inches"
+          />
+
+          <p>in centimetres</p>
+          <input
+            type="number"
+            name="armlength"
+            placeholder="centimetres"
+            step="0.5"
+            aria-label="armlength measurement in centimetres"
+          />
+        </div>
+        <p>Check and then take screenshot and go to Choices page.  (Other useful measurements are head and bicep circumference).</p>
+      </section>
+    </form>
+    <aside class="sizes1">
+      <img src="Images/measurements1.png" alt="Measurements diagram" />
+    </aside>
+    <aside class="sizes">
+      <img
+        src="Images/measurements.png"
+        alt="Measurements diagram smaller size"
+      />
+    </aside>
+    <div class="navbutsM">
       <a href="index7.html"> <button class="buttonB2">Back</button></a>
       <a href="index.html"> <button class="buttonM">Main</button></a>
       <a href="choices.html"> <button class="buttonN">Next</button></a>
     </div>
-    <footer>
+    <footer class="f2">
       <ul>
         <li>
           <a href="" target="" rel="noreferrer">
