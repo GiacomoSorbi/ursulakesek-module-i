@@ -13,6 +13,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="CSS/armholesdt.css" media="screen" />
+    <link
+      rel="stylesheet"
+      href="CSS/armholesm.css"
+      media="screen and (max-width:399px)"
+    />
     <link rel="stylesheet" href="CSS/footer.css" media="screen" />
     <link rel="apple-touch-icon" href="Images/uknit.png" />
 
@@ -22,7 +27,7 @@
       sizes="32x32"
       href="Images/U.Knit32x32.gif"
     />
-    <title>Sleeves</title>
+    <title>Details</title>
   </head>
   <body>
     <header>
@@ -30,17 +35,134 @@
         <img src="Images/U.Knit1.jpg" alt="" />
       </div>
       <div class="htext">
-        <h1>10</h1>
+        <h1>Your Details</h1>
       </div>
     </header>
-    <div class="Sleeves">
-      <p>PAGE NOT BUILT YET</p>
-    </div>
-    <div class="navbuts">
+    <form action="" method="post">
+      <section class="details">
+        <h2>Your Contact Information</h2>
+        <div class="row">
+          <div class="columnleft">
+            <label for="name">
+              First name
+            </label>
+          </div>
+          <div class="columnright">
+            <input
+              type="text"
+              for="firstname"
+              id="name"
+              placeholder="First name"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="columnleft">
+            <label for="lastname">
+              Last name
+            </label>
+          </div>
+          <div class="columnright">
+            <input
+              type="text"
+              for="lastname"
+              id="lastname"
+              placeholder="Last name"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="columnleft">
+            <label for="phone">
+              Phone number
+            </label>
+          </div>
+          <div class="columnright">
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="07123 456 789"
+              pattern="[0-9]{5}\s[0-9]{3}\s[0-9]{3}"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="columnleft">
+            <label for="address">
+              Address
+            </label>
+          </div>
+          <div class="columnright address">
+            <input
+              type="text"
+              id="address"
+              name="address-first-line"
+              placeholder="Street"
+            />
+            <input
+              type="text"
+              id="address"
+              name="address-second-line"
+              placeholder="Address line 2"
+            />
+            <input
+              type="text"
+              id="address"
+              name="address-town"
+              placeholder="Town"
+              required
+            />
+            <input
+              type="text"
+              id="address"
+              name="address-postcode"
+              placeholder="Post-Code"
+            />
+            <input
+              type="text"
+              id="address"
+              name="address-country"
+              placeholder="Country"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="aob">
+        <div class="choice10">
+          <textarea
+            name="other details"
+            for="other details"
+            aria-label="other details"
+            cols="50"
+            rows="20"
+          >
+        OTHER DETAILS:
+
+        YARN SELECTION:
+
+        COLOURS:
+
+        CABLE:
+
+        INTARSIA:
+
+        SPECIAL RIBBINGS:
+
+        POCKETS:
+
+
+      </textarea
+          >
+        </div>
+      </section>
+    </form>
+    <div class="navbuts10">
       <a href="choices.html"> <button class="buttonB2">Back</button></a>
+      <a href=""> <button class="submit">Submit</button></a>
       <a href="index.html"> <button class="buttonM">Main</button></a>
     </div>
-    <footer>
+    <footer class="f10">
       <ul>
         <li>
           <a href="" target="" rel="noreferrer">

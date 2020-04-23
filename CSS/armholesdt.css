@@ -164,23 +164,48 @@ span {
 }
 .buttonM,
 .buttonN,
-.buttonB2 {
+.buttonB2
+ {
   width: 80px;
   height: 80px;
   font-size: 1.5em;
   position: relative;
   top: 15px;
 }
+.submit{
+  width: 180px;
+  height: 80px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(255, 0, 225),
+    rgb(250, 250, 3),
+    rgb(255, 0, 225)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  top:20px;
+}
 .choice1,
 .choice2,
 .choice3,
-.choice4 {
+.choice4,
+.choice10 {
   height: 90px;
   width: 400px;
   background-color: black;
   margin-top: 10px;
   margin-bottom: 5px;
   margin-left: 25px;
+}
+.choice10{
+  position: relative;
+  left:700px;
+  top:-600px;
 }
 .choice5 {
   height: 100px;
@@ -192,7 +217,8 @@ span {
 .choice1 textarea,
 .choice2 textarea,
 .choice3 textarea,
-.choice4 textarea {
+.choice4 textarea,
+.choice10 textarea {
   position: relative;
   top: 5px;
   left: 5px;
@@ -259,7 +285,7 @@ input{
   display:none;
 }
 .navbuts,
-.navbutsc,.navbutsM {
+.navbutsc,.navbutsM,.navbuts10 {
   background: -webkit-gradient(
     linear,
     left top,
@@ -289,6 +315,11 @@ input{
   position: relative;
   top:-500px;
 }
+.navbuts10{
+  position: relative;
+  left:120px;
+  top:-120px;
+}
 .oneb {
   background: -webkit-gradient(
     linear,
@@ -309,6 +340,42 @@ input{
   left: 430px;
   top: 800px;
 }
+.details{
+  border:5px solid pink;
+  width:600px;
+  margin:30px;
+  padding:10px 30px;
+  height:600px;
+}
+.details h2{
+  color:white;
+}
+.row{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.columnleft{
+  display:flex;
+  flex-direction:column;
+  width:160px;
+  position: relative;
+  left:20px;
+  top:20px;
+  color:white;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.columnright{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  position: relative;
+  left:30px;
+  color:white;
+  font-size: 1em;
+}
+
 #diver {
   animation: boomerang 8s infinite;
 }
@@ -377,4 +444,8 @@ footer {
 .f2{
   position: relative;
   top:-525px;
+}
+.f10{
+  position: relative;
+  top:-125px;
 }

@@ -185,24 +185,65 @@ span {
 .choice2,
 .choice3,
 .choice4,
-.choice5 {
+.choice5,
+.choice10 {
   height: 90px;
   background-color: black;
   margin-top: 5px;
   margin-left: 25px;
 }
+.choice10{
+  position: relative;
+  left:1px;
+  top:250px;
+}
 .choice1 textarea,
 .choice2 textarea,
 .choice3 textarea,
 .choice4 textarea,
-.choice5 textarea {
+.choice5 textarea{
   position: relative;
-  top: 5px;
-  left: 5px;
+  top: 15px;
+  left: 15px;
   background-color: rgb(245, 185, 55);
   font-size: 16px;
   font-weight: bold;
 }
+.choice10 textarea{
+  position: relative;
+  top:=5-px
+
+  width:350px;
+}
+.details{
+  border:5px solid pink;
+  width:399px;
+  height:800px;
+}
+.details h2{
+  color:white;
+}
+.columnleft{
+  display:flex;
+  flex-direction:column;
+  width:160px;
+  position: relative;
+  top:30px;
+  color:white;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.columnright{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  position: relative;
+  top:30px;
+  color:white;
+  font-size: 1em;
+}
+
+
 .mail {
   height: 40px;
   background-color: black;
@@ -211,7 +252,7 @@ span {
   color: white;
 }
 .navbuts,
-.navbutsc,.navbutsM {
+.navbutsc,.navbutsM,.navbuts10 {
   background: -webkit-gradient(
     linear,
     left top,
@@ -235,6 +276,11 @@ span {
   position: relative;
   top:-490px;
 
+}
+.navbuts10{
+  position: relative;
+  top:-90px;
+  left:1px;
 }
 #island {
   position: relative;
@@ -308,4 +354,8 @@ footer {
 .f2{
   position: relative;
   top:-515px;
+}
+.f10{
+  position: relative;
+  top:-115px;
 }
