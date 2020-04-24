@@ -273,6 +273,7 @@ span {
 .navbutsM{
   position: relative;
   top:30px;
+  left:0px;
   width:420px;
 
 }
