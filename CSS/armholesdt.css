@@ -345,7 +345,7 @@ input{
   width:600px;
   margin:30px;
   padding:10px 30px;
-  height:600px;
+  height:650px;
 }
 .details h2{
   color:white;
@@ -360,7 +360,7 @@ input{
   flex-direction:column;
   width:160px;
   position: relative;
-  left:20px;
+  left:10px;
   top:20px;
   color:white;
   font-size: 1.5em;
@@ -371,7 +371,6 @@ input{
   flex-direction:column;
   flex-wrap: wrap;
   position: relative;
-  left:30px;
   color:white;
   font-size: 1em;
 }
