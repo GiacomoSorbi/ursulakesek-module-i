@@ -188,7 +188,7 @@ span {
 .choice10 {
   height: 50px;
   background-color: black;
-  margin-top: 5px;
+  margin-top: 45px;
   margin-left: 25px;
 }
 .choice10{
@@ -202,8 +202,8 @@ span {
 .choice4 textarea,
 .choice5 textarea{
   position: relative;
-  top: 15px;
-  left: -15px;
+  top: 5px;
+  left: 15px;
   background-color: rgb(245, 185, 55);
   font-size: 16px;
   font-weight: bold;
@@ -248,6 +248,8 @@ span {
   margin-left: 25px;
   padding: 0px 3px 0px 6px;
   color: white;
+  position: relative;
+  top:-488px;
 }
 .navbuts,
 .navbutsc,.navbutsM,.navbuts10 {
@@ -270,12 +272,11 @@ span {
   flex-direction: row;
   justify-content: space-evenly;
 }
+.navbutsc
 .navbutsM{
   position: relative;
-  top:30px;
   left:0px;
   width:420px;
-
 }
 .navbuts10{
   position: relative;
@@ -357,6 +358,10 @@ input{
 }
 footer {
   width: 450px;
+}
+.choices{
+  position: relative;
+  top:-15px;
 }
 .f2{
   position: relative;
