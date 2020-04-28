@@ -126,6 +126,7 @@ span {
 .buttonM,
 .buttonN,
 .buttonB2 {
+  -webkit-appearance: none;
   width: 80px;
   height: 80px;
   position: relative;
@@ -144,6 +145,7 @@ span {
 }
 .buttonX,
 .buttonY {
+  -webkit-appearance: none;
   width: 40px;
   height: 20px;
   position: relative;
@@ -158,6 +160,7 @@ span {
   cursor: pointer;
 }
 .buttonY {
+  -webkit-appearance: none;
   left: 60px;
   background-color: lightgreen;
   color: black;
@@ -166,6 +169,7 @@ span {
 .buttonN,
 .buttonB2
  {
+   -webkit-appearance: none;
   width: 80px;
   height: 80px;
   font-size: 1.5em;
@@ -173,6 +177,7 @@ span {
   top: 15px;
 }
 .submit{
+  -webkit-appearance: none;
   width: 180px;
   height: 80px;
   border-radius: 50px;
@@ -219,6 +224,7 @@ span {
 .choice3 textarea,
 .choice4 textarea,
 .choice10 textarea {
+  -webkit-appearance: none;
   position: relative;
   top: 5px;
   left: 5px;
@@ -227,6 +233,7 @@ span {
   font-weight: bold;
 }
 .choice5 textarea {
+  -webkit-appearance: none;
   position: relative;
   top: 5px;
   left: 5px;
@@ -286,6 +293,7 @@ input{
 }
 .navbuts,
 .navbutsc,.navbutsM,.navbuts10 {
+  -webkit-appearance: none;
   background: -webkit-gradient(
     linear,
     left top,
@@ -322,6 +330,7 @@ input{
   top:-120px;
 }
 .oneb {
+  -webkit-appearance: none;
   background: -webkit-gradient(
     linear,
     left top,
