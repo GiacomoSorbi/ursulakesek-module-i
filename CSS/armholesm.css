@@ -272,10 +272,15 @@ span {
   flex-direction: row;
   justify-content: space-evenly;
 }
-.navbutsc
+.navbutsc{
+  position: relative;
+  left:0px;
+  width:420px;
+}
 .navbutsM{
   position: relative;
   left:0px;
+  top:30px;
   width:420px;
 }
 .navbuts10{
