@@ -59,6 +59,7 @@ aside {
   width: 350px;
 }
 .go {
+  -webkit-appearance: none;
   width: 100px;
   height: 100px;
   position: relative;

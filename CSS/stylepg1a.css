@@ -77,6 +77,7 @@ header {
   padding: 0px 30px;
 }
 .silbuts {
+  -webkit-appearance: none;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -133,6 +134,7 @@ span {
 .buttonE,
 .buttonE,
 .buttonF {
+  -webkit-appearance: none;
   width: 70px;
   height: 70px;
   position: relative;
@@ -151,6 +153,7 @@ span {
 }
 .buttonX,
 .buttonY {
+  -webkit-appearance: none;
   width: 40px;
   height: 20px;
   position: relative;
@@ -164,6 +167,7 @@ span {
   cursor: pointer;
 }
 .buttonY {
+  -webkit-appearance: none;
   position: relative;
   left: 60px;
   background-color: lightgreen;
@@ -172,6 +176,7 @@ span {
 
 .buttonM,
 .buttonN {
+  -webkit-appearance: none;
   width: 80px;
   height: 80px;
   position: relative;
@@ -195,6 +200,7 @@ span {
 }
 
 .buttonT {
+  -webkit-appearance: none;
   width: 70px;
   height: 70px;
   border-radius: 50px;
