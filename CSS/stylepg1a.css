@@ -150,6 +150,7 @@ span {
   text-align: center;
   color: white;
   outline: none;
+  cursor: pointer;
 }
 .buttonX,
 .buttonY {
