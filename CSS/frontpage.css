@@ -31,6 +31,14 @@ body {
 figcaption {
   visibility: hidden;
 }
+h1{
+  background-color: rgb(44,4,124);
+  color:rgb(44,4,124);
+}
+.letsgo p {
+  background-color: rgb(44,4,124);
+  color:rgb(44,4,124);
+}
 h2 {
   color: white;
   width: 350px;
