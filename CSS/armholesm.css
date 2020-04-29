@@ -191,7 +191,7 @@ span {
 .choice5,
 .choice10 {
   height: 50px;
-  background-color: black;
+  background-color:rgb(44,4,124);
   margin-top: 45px;
   margin-left: 25px;
 }
@@ -250,7 +250,7 @@ span {
 }
 .mail {
   height: 40px;
-  background-color: black;
+  background-color:rgb(44,4,124);
   margin-left: 25px;
   padding: 0px 3px 0px 6px;
   color: white;

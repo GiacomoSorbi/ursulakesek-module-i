@@ -28,7 +28,7 @@ body {
   box-shadow: 5px 5px 5px black;
 }
 h1 {
-  background-color: black;
+  background-color: rgb(44,4,124);
   position: absolute;
   width: 1000px;
   left: 400px;
@@ -46,7 +46,7 @@ h2 {
   color: white;
   width: 350px;
   margin: 15px;
-  background-color: black;
+  background-color: rgb(44,4,124);
   padding: 5px;
   text-align: center;
 }
@@ -65,7 +65,7 @@ h3 {
 }
 aside {
   height: 320px;
-  background-color: black;
+  background-color: rgb(44,4,124);
   margin: 15px;
   width: 350px;
 }
@@ -115,7 +115,7 @@ aside {
   }
 }
 .letsgo p {
-  background-color: black;
+  background-color: rgb(44,4,124);
   position: absolute;
   width: 1000px;
   left: 400px;
