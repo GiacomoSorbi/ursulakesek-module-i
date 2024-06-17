@@ -181,7 +181,8 @@ header {
   flex-direction: row;
   justify-content: space-around;
   position: relative;
-  top: 40px;
+  top: 90px;
+  left:-110px;
   width: 50px;
   height: 200px;
 }
@@ -222,7 +223,7 @@ header {
   color: black;
   margin: 7px;
   background-color: rgb(8, 235, 16);
-  border-radius: 50%;
+  border-radius: 90%;
   border: 2px solid black;
   position: relative;
   transition: background-color 0.6s ease;
