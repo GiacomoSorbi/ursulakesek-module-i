@@ -70,7 +70,6 @@ header {
   color: white;
 }
 .navbuts {
-  -webkit-appearance: none;
   background: -webkit-gradient(
     linear,
     left top,
@@ -93,7 +92,6 @@ header {
   position: relative;
 }
 .navbuts1 {
-  -webkit-appearance: none;
   background: -webkit-gradient(
     linear,
     left top,
@@ -117,7 +115,6 @@ header {
 .buttonM,
 .buttonN,
 .buttonB2 {
-  -webkit-appearance: none;
   width: 80px;
   height: 80px;
   position: relative;
@@ -170,29 +167,27 @@ header {
   margin: 35px 80px 30px 47px;
 }
 .dotgroup {
-  -webkit-appearance: none;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   position: relative;
-  left: 140px;
+  left: 150px;
   top: -440px;
   width: 50px;
   height: 200px;
 }
 .dotgroup3 {
-  -webkit-appearance: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   position: relative;
-  top: 40px;
+  top: 90px;
+  left:-110px;
   width: 50px;
   height: 200px;
 }
 
 .dot {
-  -webkit-appearance: none;
   width: 40px;
   height: 40px;
   cursor: pointer;
@@ -207,7 +202,6 @@ header {
   outline: none;
 }
 .dot2 {
-  -webkit-appearance: none;
   width: 50px;
   height: 40px;
   cursor: pointer;
@@ -222,7 +216,6 @@ header {
   outline: none;
 }
 .dot3 {
-  -webkit-appearance: none;
   width: 50px;
   height: 40px;
   cursor: pointer;
@@ -230,7 +223,7 @@ header {
   color: black;
   margin: 7px;
   background-color: rgb(8, 235, 16);
-  border-radius: 50%;
+  border-radius: 90%;
   border: 2px solid black;
   position: relative;
   transition: background-color 0.6s ease;
@@ -238,18 +231,15 @@ header {
 }
 .dot:hover,
 .dot2:hover {
-  -webkit-appearance: none;
   background-color: #faf206;
   box-shadow: 0px 5px 5px 5px red;
 }
 .dot3:hover {
-  -webkit-appearance: none;
   background-color: #faf206;
   box-shadow: 0px 5px 5px 5px rgb(242, 255, 0);
 }
 
 .dotgroup3 {
-  -webkit-appearance: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

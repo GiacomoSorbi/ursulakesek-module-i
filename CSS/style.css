@@ -93,7 +93,6 @@ a {
 .button1,
 .button2,
 .button3 {
-  -webkit-appearance: none;
   width: 50px;
   height: 50px;
   position: relative;
@@ -165,7 +164,6 @@ a {
 .button4,
 .button5,
 .button6 {
-  -webkit-appearance: none;
   position: relative;
   left: 25px;
   top: 12px;
@@ -195,7 +193,6 @@ a {
 .button7,
 .button8,
 .button9 {
-  -webkit-appearance: none;
   position: relative;
   left: 30px;
   top: 12px;

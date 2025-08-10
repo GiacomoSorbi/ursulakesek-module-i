@@ -63,7 +63,6 @@ body {
   color: black;
   font-size: 1em;
   box-shadow: 5px 5px 5px black;
-  -webkit-appearance: none;
 }
 aside {
   display: flex;
